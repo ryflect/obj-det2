@@ -1,6 +1,4 @@
 Traceback (most recent call last):
-  File "main.py", line 12, in <module>
-    from detectron2.utils.visualizer import Visualizer
-  File "/home/pmallya/.local/lib/python3.8/site-packages/detectron2/utils/visualizer.py", line 7, in <module>
-    import cv2
-ModuleNotFoundError: No module named 'cv2'
+  File "main.py", line 5, in <module>
+    import detectron2 
+ModuleNotFoundError: No module named 'detectron2'
