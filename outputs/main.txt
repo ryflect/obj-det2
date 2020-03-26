@@ -1,0 +1,5 @@
+0
+<torch.cuda.device object at 0x2aab0d313580>
+1
+GeForce GTX TITAN X
+True
