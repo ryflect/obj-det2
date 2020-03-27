@@ -35,6 +35,8 @@ nusc_metadata = MetadataCatalog.get("nusc_train")
 
 dataset_dicts = get_dicts("./")
 idx = 0
+
+print("Beginning Inference: ")
 for d in random.sample(dataset_dicts, 3):    
     im = cv2.imread(d["file_name"])
     outputs = predictor(im)
