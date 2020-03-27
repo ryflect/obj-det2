@@ -122,6 +122,7 @@ predictor = DefaultPredictor(cfg)
 for d in random.sample(dataset_dicts, 1):    
     im = cv2.imread(d["file_name"])
     outputs = predictor(im)
+    print(outputs)
     v = Visualizer(im[:, :, ::-1],
                    metadata=nusc_metadata, 
                    scale=0.8, 
