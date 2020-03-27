@@ -5,6 +5,7 @@ import torchvision
 import detectron2 
 import os
 import json 
+import cv2 
 from detectron2.utils.logger import setup_logger
 
 
