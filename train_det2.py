@@ -129,3 +129,10 @@ for d in random.sample(dataset_dicts, 1):
     v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
     plt.imshow(v.get_image()[:, :, ::-1])
     plt.savefig("./output/fig.png")
+    v = Visualizer(im[:, :, ::-1],
+                   metadata=nusc_metadata, 
+                   scale=0.8, 
+    )
+    vis = v.draw_dataset_dict(d)
+    plt.imshow(vis.get_image()[:, :, ::-1])
+    plt.savefig("./output/fig_draw.png")
