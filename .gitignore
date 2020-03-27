@@ -8,3 +8,5 @@ minidataset.tgz
 .idea/
 .vscode/
 .ipynb_checkpoints/
+output/model_final.pth
+output/last_checkpoint
