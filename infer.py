@@ -46,3 +46,4 @@ for d in random.sample(dataset_dicts, 3):
     v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
     plt.imshow(v.get_image()[:, :, ::-1])
     plt.savefig("./output/" + idx + ".png")
+    idx = idx + 1
