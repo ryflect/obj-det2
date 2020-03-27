@@ -57,7 +57,7 @@ def get_dicts(img_dir):
     for v in image_anns:
         if v["sample_data_token"] not in proc_files:
             proc_files.append(v["sample_data_token"])
-            print(v["sample_data_token"])
+            # print(v["sample_data_token"])
         else:
             continue
             
