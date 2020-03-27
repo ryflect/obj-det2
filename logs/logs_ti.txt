@@ -1,0 +1,10 @@
+'roi_heads.box_predictor.cls_score.weight' has shape (81, 1024) in the checkpoint but (12, 1024) in the model! Skipped.
+'roi_heads.box_predictor.cls_score.bias' has shape (81,) in the checkpoint but (12,) in the model! Skipped.
+'roi_heads.box_predictor.bbox_pred.weight' has shape (320, 1024) in the checkpoint but (44, 1024) in the model! Skipped.
+'roi_heads.box_predictor.bbox_pred.bias' has shape (320,) in the checkpoint but (44,) in the model! Skipped.
+Traceback (most recent call last):
+  File "train_det2.py", line 130, in <module>
+    v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
+  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/detectron2/utils/visualizer.py", line 356, in draw_instance_predictions
+    assert predictions.has("pred_masks"), "ColorMode.IMAGE_BW requires segmentations"
+AssertionError: ColorMode.IMAGE_BW requires segmentations
