@@ -1,5 +1,5 @@
 0
-<torch.cuda.device object at 0x2aaab2181fd0>
+<torch.cuda.device object at 0x2aaab2181f98>
 1
 GeForce GTX TITAN X
 True

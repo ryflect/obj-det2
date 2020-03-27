@@ -1,6 +1,6 @@
 Traceback (most recent call last):
-  File "main.py", line 88, in <module>
+  File "main.py", line 90, in <module>
     dataset_dicts = get_dicts("./")
-  File "main.py", line 49, in get_dicts
-    image_anns = json.load(f)
-NameError: name 'json' is not defined
+  File "main.py", line 64, in get_dicts
+    height, width = cv2.imread(filename).shape[:2]
+NameError: name 'cv2' is not defined
