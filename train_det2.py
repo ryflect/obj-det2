@@ -125,7 +125,6 @@ for d in random.sample(dataset_dicts, 1):
     v = Visualizer(im[:, :, ::-1],
                    metadata=nusc_metadata, 
                    scale=0.8, 
-                   instance_mode=ColorMode.IMAGE_BW   # remove the colors of unsegmented pixels
     )
     v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
     plt.imshow(v.get_image()[:, :, ::-1])
