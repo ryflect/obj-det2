@@ -23,7 +23,6 @@ from detectron2.data import DatasetCatalog, MetadataCatalog
 # inference for a single image
 def infer_single_image(image_path):
     print("Single Image Inference")
-    exit(0)
     im = cv2.imread(image_path)
     cfg = get_cfg()
     cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
