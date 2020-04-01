@@ -1,2 +1,2 @@
-#!/bin/sh bash
+#!/bin/bash
 python infer.py
