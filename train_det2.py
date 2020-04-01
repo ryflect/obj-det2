@@ -9,6 +9,7 @@ import cv2
 from detectron2.utils.logger import setup_logger
 import matplotlib.pyplot as plt
 
+
 # import some common detectron2 utilities
 from detectron2 import model_zoo
 from detectron2.engine import DefaultPredictor
