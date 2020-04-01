@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-python infer.py 
+python run_det2.py 
