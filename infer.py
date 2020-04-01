@@ -7,7 +7,7 @@ import os
 import json 
 import cv2 
 from detectron2.utils.logger import setup_logger
-from train_det2 import conv_catname_to_num, get_dicts
+# from train_det2 import conv_catname_to_num, get_dicts
 from matplotlib import pyplot as plt 
 
 # import some common detectron2 utilities
@@ -22,6 +22,8 @@ from detectron2.data import DatasetCatalog, MetadataCatalog
 
 # inference for a single image
 def infer_single_image(image_path):
+    print("Single Image Inference")
+    exit(0)
     im = cv2.imread(image_path)
     cfg = get_cfg()
     cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
@@ -46,6 +48,5 @@ def infer_single_image(image_path):
     # plt.imshow(vis.get_image()[:, :, ::-1])
     # plt.savefig("./output/fig_draw.png")
 
-if __name__ == "__main__":
-    infer_single_image("./samples/CAM_FRONT/n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535657123112404.jpg")
-    # show_ground_truth("./samples/CAM_FRONT/n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535657123112404.jpg")
+infer_single_image("./samples/CAM_FRONT/n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535657123112404.jpg")
+# show_ground_truth("./samples/CAM_FRONT/n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535657123112404.jpg")
