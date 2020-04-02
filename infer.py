@@ -21,7 +21,7 @@ from detectron2.utils.visualizer import Visualizer
 from detectron2.data import DatasetCatalog, MetadataCatalog
 
 # inference for a single image
-def infer_single_image(image_path):
+def infer_single_image(image_path, num):
     print("Single Image Inference")
     im = cv2.imread(image_path)
     cfg = get_cfg()
@@ -34,7 +34,7 @@ def infer_single_image(image_path):
     v = Visualizer(im[:, :, ::-1], MetadataCatalog.get(cfg.DATASETS.TRAIN[0]), scale=1.2)
     v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
     plt.imshow(v.get_image()[:, :, ::-1])
-    plt.savefig("./output/inferred.png")
+    plt.savefig("./output/inferred_" + str(num) + ".png")
 
 # save figure that outputs the ground truth as well
 # def show_ground_truth(image_path, annotations_path):
@@ -47,5 +47,5 @@ def infer_single_image(image_path):
     # plt.imshow(vis.get_image()[:, :, ::-1])
     # plt.savefig("./output/fig_draw.png")
 
-infer_single_image("./samples/CAM_FRONT/n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535657123112404.jpg")
+infer_single_image("./samples/CAM_FRONT/n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535657123112404.jpg", 1)
 # show_ground_truth("./samples/CAM_FRONT/n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535657123112404.jpg")
