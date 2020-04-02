@@ -20,9 +20,9 @@ from detectron2.utils.visualizer import Visualizer
 from detectron2.data import DatasetCatalog, MetadataCatalog
 
 # inference for a single image
-def infer_single_image(image_path, id_num):
+def infer_single_image(image_dict, id_num):
     print("Single Image Inference")
-    im = cv2.imread(image_path)
+    im = cv2.imread(image_dict["file_name"])
     cfg = get_cfg()
     cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.8
@@ -112,6 +112,6 @@ print(len(nusc_dicts))
 # do inference for multiple randomly selected images from the miniset
 count = 0
 for d in random.sample(nusc_dicts, 3):
-    infer_single_image(d["file_name"], count)
-    show_ground_truth(d["file_name"], nusc_metadata, count)
+    infer_single_image(d, count)
+    show_ground_truth(d, nusc_metadata, count)
     count = count + 1
