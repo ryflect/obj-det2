@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "infer.py", line 116, in <module>
-    show_ground_truth(d["file_name"], nusc_metadata, count)
-  File "infer.py", line 40, in show_ground_truth
-    im = cv2.imread(dict["file_name"])
-TypeError: string indices must be integers
