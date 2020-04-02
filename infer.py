@@ -67,6 +67,14 @@ def conv_catname_to_num(cat):
     else:
         return 10
 
+def conv_catname_to_num_nusc(cat):
+    if cat == "vehicle.car":
+        return 0
+    elif cat == "human.pedestrian.adult" or cat == "human.pedestrian.police_officer" or cat == "human.pedestrian.child" or cat == "human.pedestrian.construction_worker":
+        return 1
+    else:
+        return 2
+
 def get_dicts(img_dir):
     json_file = "./v1.0-mini/image_annotations.json"
     with open(json_file) as f:
@@ -104,14 +112,15 @@ def get_dicts(img_dir):
     return dataset_dicts
 
 DatasetCatalog.register("nusc_train", lambda d="train": get_dicts("./"))
-MetadataCatalog.get("nusc_train").set(thing_classes=["barrier", "bicycle", "bus", "car", "construction_vehicle", "motorcycle", "pedestrian", "traffic_cone", "trailer", "truck", "void"])
+# MetadataCatalog.get("nusc_train").set(thing_classes=["barrier", "bicycle", "bus", "car", "construction_vehicle", "motorcycle", "pedestrian", "traffic_cone", "trailer", "truck", "void"])
+MetadataCatalog.get("nusc_train").set(thing_classes=["car", "pedestrian", "void"])
 nusc_metadata = MetadataCatalog.get("nusc_train")
 nusc_dicts = get_dicts("./")
 print(len(nusc_dicts))
 
 # do inference for multiple randomly selected images from the miniset
-count = 0
-for d in random.sample(nusc_dicts, 3):
+count = 3
+for d in random.sample(nusc_dicts, 5):
     infer_single_image(d, count)
     show_ground_truth(d, nusc_metadata, count)
     count = count + 1
