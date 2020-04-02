@@ -1,4 +1,2 @@
 2177
 Single Image Inference
-Single Image Inference
-Single Image Inference
