@@ -104,7 +104,7 @@ def get_dicts(img_dir):
                 obj = {
                     "bbox": ann["bbox_corners"],
                     "bbox_mode": BoxMode.XYXY_ABS,
-                    "category_id": conv_catname_to_num(ann["category_name"])
+                    "category_id": conv_catname_to_num_nusc(ann["category_name"])
                 }
                 objs.append(obj)
         record["annotations"] = objs
