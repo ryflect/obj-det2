@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "infer.py", line 151, in <module>
-    infer_bbox = inferred_output.pred_boxes.numpy()
-AttributeError: 'Boxes' object has no attribute 'numpy'
