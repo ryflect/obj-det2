@@ -120,20 +120,51 @@ nusc_dicts = get_dicts("./")
 # print(len(nusc_dicts))
 
 # do inference for multiple randomly selected images from the miniset
-# count = 13
+count = 0
 plt.rcParams['figure.figsize'] = [20, 10]
 random.seed(2)
+output_json = []
+ground_json = []
 for d in random.sample(nusc_dicts, 1):
-    print("Ground: ")
-    print("File Name: ", d['file_name'])
-    print("Annotations: ")
-    print(d['annotations'])
-    print("---------------------------------------------------------------------------------------------------")
+    # print("Ground: ")
+    ground = {}
+    infer = {}
+    ground['img_id'] = d["sample_data_token"]
+    infer['img_id'] = d["sample_data_token"]
+    ground_0 = []
+    ground_1 = []
+    for ann in d["annotations"]:
+        if ann["category_id"] == 0:
+            ground_0.append(ann["bbox"])
+        elif ann["category_id"] == 1:
+            ground_1.append(ann["bbox"])
+    ground['0'] = ground_0
+    ground['1'] = ground_1
+    infer_0 = []
+    infer_1 = []
+    # print("File Name: ", d['file_name'])
+    # print("Annotations: ")
+    # print(d['annotations'])
+    # print("---------------------------------------------------------------------------------------------------")
     inferred_output = infer_single_image(d, 1)
-    print("Inferred: ")
-    print("Boxes: ")
-    print(inferred_output.pred_boxes)
-    print("Classes: ")
-    print(inferred_output.pred_classes)
+    infer_classes = inferred_output.pred_classes.numpy()
+    infer_bbox = inferred_output.pred_boxes.numpy()
+    for i in range(len(infer_classes)):
+        if infer_classes[i] == 2:
+            infer_0.append(infer_bbox[i])
+        elif infer_classes[i] == 0:
+            infer_1.append(infer_bbox[i])
+    # print("Inferred: ")
+    # print("Boxes: ")
+    # print(inferred_output.pred_boxes)
+    # print("Classes: ")
+    # print(inferred_output.pred_classes)
     # show_ground_truth(d, nusc_metadata, 1)
-    # count = count + 1
+    infer['0'] = infer_0
+    infer['1'] = infer_1
+    count = count + 1
+    output_json.append(infer)
+    ground_json.append(ground)
+    print(output_json)
+    print(ground_json)
+    break
