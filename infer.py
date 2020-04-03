@@ -30,10 +30,10 @@ def infer_single_image(image_dict, id_num):
     predictor = DefaultPredictor(cfg)
     outputs = predictor(im)
     
-    v = Visualizer(im[:, :, ::-1], MetadataCatalog.get(cfg.DATASETS.TRAIN[0]), scale=1.2)
-    v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
-    plt.imshow(v.get_image()[:, :, ::-1])
-    plt.savefig("./output/inferred_" + str(id_num) + ".png")
+    # v = Visualizer(im[:, :, ::-1], MetadataCatalog.get(cfg.DATASETS.TRAIN[0]), scale=1.2)
+    # v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
+    # plt.imshow(v.get_image()[:, :, ::-1])
+    # plt.savefig("./output/inferred_" + str(id_num) + ".png")
     return outputs 
 
 # save figure that outputs the ground truth as well
@@ -117,14 +117,17 @@ DatasetCatalog.register("nusc_train", lambda d="train": get_dicts("./"))
 MetadataCatalog.get("nusc_train").set(thing_classes=["car", "pedestrian", "void"])
 nusc_metadata = MetadataCatalog.get("nusc_train")
 nusc_dicts = get_dicts("./")
-print(len(nusc_dicts))
+# print(len(nusc_dicts))
 
 # do inference for multiple randomly selected images from the miniset
 # count = 13
 plt.rcParams['figure.figsize'] = [20, 10]
 random.seed(2)
 for d in random.sample(nusc_dicts, 1):
+    print("Ground: ")
+    print(d)
     inferred_output = infer_single_image(d, 1)
+    print("Inferred: ")
     print(inferred_output)
-    show_ground_truth(d, nusc_metadata, 1)
+    # show_ground_truth(d, nusc_metadata, 1)
     # count = count + 1
