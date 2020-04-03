@@ -151,10 +151,13 @@ for d in random.sample(nusc_dicts, 1):
     infer_bbox = inferred_output.pred_boxes
     box_count = 0
     for i in infer_bbox:
-        print(i)
-        print(infer_classes[box_count])
+        # print(i)
+        # print(infer_classes[box_count])
+        if infer_classes[box_count] == 2:
+            infer_0.append(i.numpy())
+        elif infer_classes[box_count] == 0:
+            infer_1.append(i.numpy())
         box_count = box_count + 1
-        exit()
     # print("Inferred: ")
     # print("Boxes: ")
     # print(inferred_output.pred_boxes)
