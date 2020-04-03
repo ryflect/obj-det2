@@ -178,7 +178,7 @@ print("Ground: ")
 print(ground_json)
 
 # write to json file
-with open("./output/output_json.txt", 'w') as infer_outfile:
-    json.dump(output_json, infer_outfile)
-with open("./output/ground_json.txt", 'w') as ground_outfile:
-    json.dump(ground_json, ground_outfile)
+with open("./output/infer.json", 'w', encoding='utf-8') as infer_outfile:
+    json.dump(output_json, infer_outfile, ensure_ascii=False, indent=4)
+with open("./output/ground.json", 'w', encoding='utf-8') as ground_outfile:
+    json.dump(ground_json, ground_outfile, ensure_ascii=False, indent=4)
