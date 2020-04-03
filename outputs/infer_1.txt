@@ -1,3 +1,2 @@
 2177
-{'instances': Instances(num_instances=2, image_height=900, image_width=1600, fields=[pred_boxes: Boxes(tensor([[1356.7987,  485.5045, 1448.6531,  556.7650],
-        [ 785.6282,  481.0929,  891.2209,  567.7469]], device='cuda:0')), scores: tensor([0.9940, 0.9625], device='cuda:0'), pred_classes: tensor([2, 2], device='cuda:0')])}
+{'instances': Instances(num_instances=1, image_height=900, image_width=1600, fields=[pred_boxes: Boxes(tensor([[391.6310, 259.4690, 450.4810, 305.4838]], device='cuda:0')), scores: tensor([0.8465], device='cuda:0'), pred_classes: tensor([9], device='cuda:0')])}
