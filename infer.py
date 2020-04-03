@@ -122,7 +122,7 @@ print(len(nusc_dicts))
 # do inference for multiple randomly selected images from the miniset
 # count = 13
 plt.rcParams['figure.figsize'] = [20, 10]
-random.seed(0)
+random.seed(1)
 for d in random.sample(nusc_dicts, 1):
     inferred_output = infer_single_image(d, 1)
     print(inferred_output)
