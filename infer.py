@@ -149,10 +149,11 @@ for d in random.sample(nusc_dicts, 1):
     inferred_output = infer_single_image(d, 1)
     infer_classes = inferred_output.pred_classes.numpy()
     infer_bbox = inferred_output.pred_boxes
-    for i in range(len(infer_bbox)):
+    box_count = 0
+    for i in infer_bbox:
         print(i)
-        print(infer_bbox[i].numpy())
-        print(infer_classes[i])
+        print(infer_classes[box_count])
+        box_count = box_count + 1
         exit()
     # print("Inferred: ")
     # print("Boxes: ")
