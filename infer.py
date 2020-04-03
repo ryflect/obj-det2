@@ -30,10 +30,10 @@ def infer_single_image(image_dict, id_num):
     predictor = DefaultPredictor(cfg)
     outputs = predictor(im)
     
-    # v = Visualizer(im[:, :, ::-1], MetadataCatalog.get(cfg.DATASETS.TRAIN[0]), scale=1.2)
-    # v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
-    # plt.imshow(v.get_image()[:, :, ::-1])
-    # plt.savefig("./output/inferred_" + str(id_num) + ".png")
+    v = Visualizer(im[:, :, ::-1], MetadataCatalog.get(cfg.DATASETS.TRAIN[0]), scale=1.2)
+    v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
+    plt.imshow(v.get_image()[:, :, ::-1])
+    plt.savefig("./output/inferred_" + str(id_num) + ".png")
     return outputs["instances"].to("cpu")
 
 # save figure that outputs the ground truth as well
@@ -146,7 +146,7 @@ for d in nusc_dicts:
     # print("Annotations: ")
     # print(d['annotations'])
     # print("---------------------------------------------------------------------------------------------------")
-    inferred_output = infer_single_image(d, 1)
+    inferred_output = infer_single_image(d, count)
     infer_classes = inferred_output.pred_classes.numpy()
     infer_bbox = inferred_output.pred_boxes
     box_count = 0
@@ -163,7 +163,8 @@ for d in nusc_dicts:
     # print(inferred_output.pred_boxes)
     # print("Classes: ")
     # print(inferred_output.pred_classes)
-    # show_ground_truth(d, nusc_metadata, 1)
+    show_ground_truth(d, nusc_metadata, count)
+    
     infer['0'] = infer_0
     infer['1'] = infer_1
     count = count + 1
