@@ -176,3 +176,9 @@ print("Inferred: ")
 print(output_json)
 print("Ground: ")
 print(ground_json)
+
+# write to json file
+with open("./output/output_json.txt", 'w') as infer_outfile:
+    json.dump(output_json, infer_outfile)
+with open("./output/ground_json.txt", 'w') as ground_outfile:
+    json.dump(ground_json, ground_outfile)
