@@ -125,7 +125,7 @@ plt.rcParams['figure.figsize'] = [20, 10]
 random.seed(2)
 output_json = []
 ground_json = []
-for d in random.sample(nusc_dicts, 1):
+for d in nusc_dicts:
     
     ground = {}
     infer = {}
