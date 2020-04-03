@@ -126,7 +126,7 @@ random.seed(2)
 output_json = []
 ground_json = []
 for d in random.sample(nusc_dicts, 1):
-    # print("Ground: ")
+    
     ground = {}
     infer = {}
     ground['img_id'] = d["image_id"]
@@ -158,7 +158,7 @@ for d in random.sample(nusc_dicts, 1):
         elif infer_classes[box_count] == 0:
             infer_1.append(i.numpy().tolist())
         box_count = box_count + 1
-    # print("Inferred: ")
+    
     # print("Boxes: ")
     # print(inferred_output.pred_boxes)
     # print("Classes: ")
@@ -169,6 +169,10 @@ for d in random.sample(nusc_dicts, 1):
     count = count + 1
     output_json.append(infer)
     ground_json.append(ground)
-    print(output_json)
-    print(ground_json)
-    break
+    if count == 10:
+        break
+
+print("Inferred: ")
+print(output_json)
+print("Ground: ")
+print(ground_json)
