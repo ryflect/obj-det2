@@ -21,7 +21,7 @@ from detectron2.data import DatasetCatalog, MetadataCatalog
 
 # inference for a single image
 def infer_single_image(image_dict, id_num):
-    print("Single Image Inference")
+    # print("Single Image Inference")
     im = cv2.imread(image_dict["file_name"])
     cfg = get_cfg()
     cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
@@ -29,11 +29,11 @@ def infer_single_image(image_dict, id_num):
     cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml")
     predictor = DefaultPredictor(cfg)
     outputs = predictor(im)
-
-    v = Visualizer(im[:, :, ::-1], MetadataCatalog.get(cfg.DATASETS.TRAIN[0]), scale=1.2)
-    v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
-    plt.imshow(v.get_image()[:, :, ::-1])
-    plt.savefig("./output/inferred_" + str(id_num) + ".png")
+    return outputs 
+    # v = Visualizer(im[:, :, ::-1], MetadataCatalog.get(cfg.DATASETS.TRAIN[0]), scale=1.2)
+    # v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
+    # plt.imshow(v.get_image()[:, :, ::-1])
+    # plt.savefig("./output/inferred_" + str(id_num) + ".png")
 
 # save figure that outputs the ground truth as well
 def show_ground_truth(dict, annotations, id_num):
@@ -119,9 +119,10 @@ nusc_dicts = get_dicts("./")
 print(len(nusc_dicts))
 
 # do inference for multiple randomly selected images from the miniset
-count = 8
+# count = 13
 plt.rcParams['figure.figsize'] = [20, 10]
-for d in random.sample(nusc_dicts, 5):
-    infer_single_image(d, count)
-    show_ground_truth(d, nusc_metadata, count)
-    count = count + 1
+for d in random.sample(nusc_dicts, 1):
+    inferred_output = infer_single_image(d, 1)
+    print(inferred_output)
+    # show_ground_truth(d, nusc_metadata, count)
+    # count = count + 1
