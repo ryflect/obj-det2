@@ -154,9 +154,9 @@ for d in random.sample(nusc_dicts, 1):
         # print(i)
         # print(infer_classes[box_count])
         if infer_classes[box_count] == 2:
-            infer_0.append(i.numpy())
+            infer_0.append(i.numpy().tolist())
         elif infer_classes[box_count] == 0:
-            infer_1.append(i.numpy())
+            infer_1.append(i.numpy().tolist())
         box_count = box_count + 1
     # print("Inferred: ")
     # print("Boxes: ")
