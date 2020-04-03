@@ -119,7 +119,8 @@ nusc_dicts = get_dicts("./")
 print(len(nusc_dicts))
 
 # do inference for multiple randomly selected images from the miniset
-count = 3
+count = 8
+plt.rcParams['figure.figsize'] = [20, 10]
 for d in random.sample(nusc_dicts, 5):
     infer_single_image(d, count)
     show_ground_truth(d, nusc_metadata, count)
