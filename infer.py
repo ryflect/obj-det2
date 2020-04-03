@@ -129,8 +129,8 @@ for d in random.sample(nusc_dicts, 1):
     # print("Ground: ")
     ground = {}
     infer = {}
-    ground['img_id'] = d["sample_data_token"]
-    infer['img_id'] = d["sample_data_token"]
+    ground['img_id'] = d["image_id"]
+    infer['img_id'] = d["image_id"]
     ground_0 = []
     ground_1 = []
     for ann in d["annotations"]:
