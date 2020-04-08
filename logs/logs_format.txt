@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "format.py", line 10, in <module>
+    with open(directory + "fff7106ca1f34c7a83e72ffbc0c0b1b5.txt", 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/label2/fff7106ca1f34c7a83e72ffbc0c0b1b5.txt'
