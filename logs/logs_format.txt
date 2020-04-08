@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "format.py", line 11, in <module>
+    data = np.loadtxt(directory + "fff7106ca1f34c7a83e72ffbc0c0b1b5.txt")
+  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/numpy/lib/npyio.py", line 1159, in loadtxt
+    for x in read_data(_loadtxt_chunksize):
+  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/numpy/lib/npyio.py", line 1087, in read_data
+    items = [conv(val) for (conv, val) in zip(converters, vals)]
+  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/numpy/lib/npyio.py", line 1087, in <listcomp>
+    items = [conv(val) for (conv, val) in zip(converters, vals)]
+  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/numpy/lib/npyio.py", line 794, in floatconv
+    return float(x)
+ValueError: could not convert string to float: 'Car'
