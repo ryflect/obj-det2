@@ -126,7 +126,6 @@ random.seed(2)
 output_json = []
 ground_json = []
 for d in nusc_dicts:
-    
     ground = {}
     infer = {}
     ground['img_id'] = d["image_id"]
