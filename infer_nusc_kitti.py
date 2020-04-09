@@ -34,7 +34,7 @@ for filename in os.listdir(directory):
         infer_0 = []
         infer_1 = []
         infer_2 = []
-        im = cv2.imread(filename)
+        im = cv2.imread(directory + filename)
         cfg = get_cfg()
         cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
         cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.7
