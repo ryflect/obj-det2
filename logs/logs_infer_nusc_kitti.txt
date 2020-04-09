@@ -1,4 +1,6 @@
 Traceback (most recent call last):
-  File "infer_nusc_kitti.py", line 3, in <module>
-    import torch 
-ModuleNotFoundError: No module named 'torch'
+  File "infer_nusc_kitti.py", line 43, in <module>
+    outputs = predictor(im)
+  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/detectron2/engine/defaults.py", line 191, in __call__
+    height, width = original_image.shape[:2]
+AttributeError: 'NoneType' object has no attribute 'shape'
