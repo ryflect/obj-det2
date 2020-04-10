@@ -62,20 +62,20 @@ for filename in os.listdir(directory):
                 # print(infer_classes[box_count])
                 if infer_classes[box_count] == 2:
                     infer_0.append(i.numpy().tolist())
-                    w_string = "Car 0.0 0.0 0.0 ".join(map(str, i.numpy().tolist())) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"
+                    w_string = "Car 0.0 0.0 0.0 " + " ".join([str(k) for k in i.numpy().tolist()]) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"
                     print(w_string)
                     infer_file.write(w_string)
                 elif infer_classes[box_count] == 0:
                     infer_1.append(i.numpy().tolist())
-                    w_string = "Pedestrian 0.0 0.0 0.0 ".join(map(str, i.numpy().tolist())) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"
+                    w_string = "Pedestrian 0.0 0.0 0.0 " + " ".join([str(k) for k in i.numpy().tolist()]) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"
                     print(w_string)
                     infer_file.write(w_string)
                 box_count = box_count + 1
         
-        print("Boxes: ")
-        print(inferred_output.pred_boxes)
-        print("Classes: ")
-        print(inferred_output.pred_classes)
+        # print("Boxes: ")
+        # print(inferred_output.pred_boxes)
+        # print("Classes: ")
+        # print(inferred_output.pred_classes)        
         
         infer["Car"] = infer_0
         infer["Pedestrian"] = infer_1
