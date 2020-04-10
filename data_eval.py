@@ -11,5 +11,5 @@ gt_split_file = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/nusc_val.txt"
 # val_image_ids = _read_imageset_file(gt_split_file)
 # gt_annos = kitti.get_label_annos(gt_path, val_image_ids)
 gt_annos = kitti.get_label_annos(gt_path)
-print(get_official_eval_result(gt_annos, dt_annos, 0)) 
+# print(get_official_eval_result(gt_annos, dt_annos, 0)) 
 print(get_coco_eval_result(gt_annos, dt_annos, 0)) 
