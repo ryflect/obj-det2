@@ -3,7 +3,7 @@ from eval import get_official_eval_result, get_coco_eval_result
 def _read_imageset_file(path):
     with open(path, 'r') as f:
         lines = f.readlines()
-    return [line[:-2] for line in lines]
+    return [line[:-1] for line in lines]
 gt_split_file = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/nusc_val.txt" 
 val_image_ids = _read_imageset_file(gt_split_file)
 # print("Val Image IDs: ", val_image_ids)
