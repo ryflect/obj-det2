@@ -20,17 +20,20 @@ from detectron2.utils.visualizer import Visualizer
 from detectron2.data import DatasetCatalog, MetadataCatalog
 
 directory = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/"
+infer_directory = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/infer_2/"
 output_json = []
 draw_output_flag = False
 id_num = 0
 count = 0
 plt.rcParams['figure.figsize'] = [20, 10]
-
+# generate ids for val set
+val_file = open("/mnt/nfs/scratch1/pmallya/nusc_kitti/val/nusc_val.txt", 'w')
 for filename in os.listdir(directory):
     if filename.endswith(".png"):
         print("Processing File: ", filename)
         infer = {}
         infer["id"] = os.path.splitext(filename)[0]
+        val_file.write(infer["id"] + "\n")
         infer_0 = []
         infer_1 = []
         infer_2 = []
@@ -53,14 +56,17 @@ for filename in os.listdir(directory):
         infer_classes = inferred_output.pred_classes.numpy()
         infer_bbox = inferred_output.pred_boxes
         box_count = 0
-        for i in infer_bbox:
-            print(i)
-            print(infer_classes[box_count])
-            if infer_classes[box_count] == 2:
-                infer_0.append(i.numpy().tolist())
-            elif infer_classes[box_count] == 0:
-                infer_1.append(i.numpy().tolist())
-            box_count = box_count + 1
+        with open(infer_directory + infer["id"] + ".txt", 'w') as infer_file:
+            for i in infer_bbox:
+                # print(i)
+                # print(infer_classes[box_count])
+                if infer_classes[box_count] == 2:
+                    infer_0.append(i.numpy().tolist())
+                    infer_file.write("Car 0.0 0.0 0.0 ".join(i.numpy().tolist()) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 \n")
+                elif infer_classes[box_count] == 0:
+                    infer_1.append(i.numpy().tolist())
+                    infer_file.write("Pedestrian 0.0 0.0 0.0 ".join(i.numpy().tolist()) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 \n")
+                box_count = box_count + 1
         
         print("Boxes: ")
         print(inferred_output.pred_boxes)
@@ -74,6 +80,7 @@ for filename in os.listdir(directory):
         if count == 10:
             break
 
+val_file.close()
 print("Finished")
 with open("./output/infer.json", 'w', encoding='utf-8') as infer_outfile:
     json.dump(output_json, infer_outfile, ensure_ascii=False, indent=4)
