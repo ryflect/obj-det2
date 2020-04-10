@@ -333,9 +333,9 @@ def get_label_annos(label_folder, image_ids=None):
         filepaths = pathlib.Path(label_folder).glob('*.txt')
         prog = re.compile(r'^\d{6}.txt$')
         filepaths = filter(lambda f: prog.match(f.name), filepaths)
+        print(filepaths)
         image_ids = [int(p.stem) for p in filepaths]
         image_ids = sorted(image_ids)
-        print(image_ids)
     if not isinstance(image_ids, list):
         image_ids = list(range(image_ids))
     annos = []
