@@ -94,5 +94,5 @@ def infer_single_image(image_name, id_num):
 # nusc_dicts = get_dicts("./")
 # print(len(nusc_dicts))
 
-infer_single_image("e3e57f1d52744b7e85bcc947275a48b6.png", 15)
+infer_single_image("b139c133286247d48093bba9151920b2.png", 15)
 # show_ground_truth()
