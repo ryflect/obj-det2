@@ -6,7 +6,7 @@ def _read_imageset_file(path):
     return [line[:-2] for line in lines]
 gt_split_file = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/nusc_val.txt" 
 val_image_ids = _read_imageset_file(gt_split_file)
-print("Val Image IDs: ", val_image_ids)
+# print("Val Image IDs: ", val_image_ids)
 det_path = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/infer_2/"
 dt_annos = kitti.get_label_annos(det_path, val_image_ids)
 gt_path = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/label_2/"
