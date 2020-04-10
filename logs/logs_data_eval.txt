@@ -1,6 +1,6 @@
 Traceback (most recent call last):
-  File "data_eval.py", line 1, in <module>
-    import kitti_common as kitti
-  File "/home/pmallya/obj-det2/kitti_common.py", line 8, in <module>
-    from skimage import io
-ModuleNotFoundError: No module named 'skimage'
+  File "data_eval.py", line 2, in <module>
+    from eval import get_official_eval_result, get_coco_eval_result
+  File "/home/pmallya/obj-det2/eval.py", line 2, in <module>
+    import numba
+ModuleNotFoundError: No module named 'numba'
