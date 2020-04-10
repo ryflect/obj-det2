@@ -3,6 +3,8 @@ Traceback (most recent call last):
     dt_annos = kitti.get_label_annos(det_path, val_image_ids)
   File "/home/pmallya/obj-det2/kitti_common.py", line 346, in get_label_annos
     annos.append(get_label_anno(label_filename))
-  File "/home/pmallya/obj-det2/kitti_common.py", line 305, in get_label_anno
-    with open(label_path, 'r') as f:
-FileNotFoundError: [Errno 2] No such file or directory: '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/infer_2/4dc2e5fa449f41448824a40820f8ab3.txt'
+  File "/home/pmallya/obj-det2/kitti_common.py", line 313, in get_label_anno
+    annotations['occluded'] = np.array([int(x[2]) for x in content])
+  File "/home/pmallya/obj-det2/kitti_common.py", line 313, in <listcomp>
+    annotations['occluded'] = np.array([int(x[2]) for x in content])
+ValueError: invalid literal for int() with base 10: '0.0'
