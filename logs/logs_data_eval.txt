@@ -1,8 +1,8 @@
 Traceback (most recent call last):
   File "data_eval.py", line 11, in <module>
     dt_annos = kitti.get_label_annos(det_path, val_image_ids)
-  File "/home/pmallya/obj-det2/kitti_common.py", line 344, in get_label_annos
-    image_idx = get_image_index_str(idx)
-  File "/home/pmallya/obj-det2/kitti_common.py", line 11, in get_image_index_str
-    return "{:06d}".format(img_idx)
-ValueError: Unknown format code 'd' for object of type 'str'
+  File "/home/pmallya/obj-det2/kitti_common.py", line 346, in get_label_annos
+    annos.append(get_label_anno(label_filename))
+  File "/home/pmallya/obj-det2/kitti_common.py", line 305, in get_label_anno
+    with open(label_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/infer_2/4dc2e5fa449f41448824a40820f8ab3.txt'
