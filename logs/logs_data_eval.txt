@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "data_eval.py", line 1, in <module>
+    import kitti_common as kitti
+  File "/home/pmallya/obj-det2/kitti_common.py", line 8, in <module>
+    from skimage import io
+ModuleNotFoundError: No module named 'skimage'
