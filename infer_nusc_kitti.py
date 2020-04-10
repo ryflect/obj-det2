@@ -86,6 +86,7 @@ for filename in os.listdir(directory):
 
 val_file.close()
 print("Finished")
+print("Files Processed: ", count)
 with open("./output/infer.json", 'w', encoding='utf-8') as infer_outfile:
     json.dump(output_json, infer_outfile, ensure_ascii=False, indent=4)
         
