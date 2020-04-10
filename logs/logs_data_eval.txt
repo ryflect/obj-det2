@@ -1,6 +1,8 @@
 Traceback (most recent call last):
-  File "data_eval.py", line 2, in <module>
-    from eval import get_official_eval_result, get_coco_eval_result
-  File "/home/pmallya/obj-det2/eval.py", line 4, in <module>
-    from tools.kitti_object_eval_python.rotate_iou import rotate_iou_gpu_eval
-ModuleNotFoundError: No module named 'tools'
+  File "data_eval.py", line 11, in <module>
+    val_image_ids = _read_imageset_file(gt_split_file)
+  File "data_eval.py", line 6, in _read_imageset_file
+    return [int(line) for line in lines]
+  File "data_eval.py", line 6, in <listcomp>
+    return [int(line) for line in lines]
+ValueError: invalid literal for int() with base 10: '4dc2e5fa449f41448824a40820f8ab36\n'
