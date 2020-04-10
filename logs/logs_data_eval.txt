@@ -1,6 +1,6 @@
 Traceback (most recent call last):
   File "data_eval.py", line 2, in <module>
     from eval import get_official_eval_result, get_coco_eval_result
-  File "/home/pmallya/obj-det2/eval.py", line 2, in <module>
-    import numba
-ModuleNotFoundError: No module named 'numba'
+  File "/home/pmallya/obj-det2/eval.py", line 4, in <module>
+    from tools.kitti_object_eval_python.rotate_iou import rotate_iou_gpu_eval
+ModuleNotFoundError: No module named 'tools'
