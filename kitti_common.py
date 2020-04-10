@@ -310,7 +310,7 @@ def get_label_anno(label_path):
     content = [line.strip().split(' ') for line in lines]
     annotations['name'] = np.array([x[0] for x in content])
     annotations['truncated'] = np.array([float(x[1]) for x in content])
-    annotations['occluded'] = 0
+    annotations['occluded'] = np.array([0])
     annotations['alpha'] = np.array([float(x[3]) for x in content])
     annotations['bbox'] = np.array(
         [[float(info) for info in x[4:8]] for x in content]).reshape(-1, 4)

@@ -13,7 +13,7 @@ gt_path = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/label_2/"
 
 # gt_annos = kitti.get_label_annos(gt_path, val_image_ids)
 gt_annos = kitti.get_label_annos(gt_path, val_image_ids)
-print(dt_annos)
-print(gt_annos)
+# print(dt_annos)
+# print(gt_annos)
 print(get_official_eval_result(gt_annos, dt_annos, 0)) 
 print(get_coco_eval_result(gt_annos, dt_annos, 0)) 
