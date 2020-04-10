@@ -335,6 +335,7 @@ def get_label_annos(label_folder, image_ids=None):
         filepaths = filter(lambda f: prog.match(f.name), filepaths)
         image_ids = [int(p.stem) for p in filepaths]
         image_ids = sorted(image_ids)
+        print(image_ids)
     if not isinstance(image_ids, list):
         image_ids = list(range(image_ids))
     annos = []
