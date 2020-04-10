@@ -1,10 +1,14 @@
 Traceback (most recent call last):
-  File "data_eval.py", line 11, in <module>
-    dt_annos = kitti.get_label_annos(det_path, val_image_ids)
-  File "/home/pmallya/obj-det2/kitti_common.py", line 346, in get_label_annos
-    annos.append(get_label_anno(label_filename))
-  File "/home/pmallya/obj-det2/kitti_common.py", line 313, in get_label_anno
-    annotations['occluded'] = np.array([int(x[2]) for x in content])
-  File "/home/pmallya/obj-det2/kitti_common.py", line 313, in <listcomp>
-    annotations['occluded'] = np.array([int(x[2]) for x in content])
-ValueError: invalid literal for int() with base 10: '0.0'
+  File "data_eval.py", line 18, in <module>
+    print(get_official_eval_result(gt_annos, dt_annos, 0)) 
+  File "/home/pmallya/obj-det2/eval.py", line 642, in get_official_eval_result
+    gt_annos, dt_annos, current_classes, min_overlaps, compute_aos)
+  File "/home/pmallya/obj-det2/eval.py", line 574, in do_eval
+    min_overlaps, compute_aos)
+  File "/home/pmallya/obj-det2/eval.py", line 480, in eval_class
+    rets = _prepare_data(gt_annos, dt_annos, current_class, difficulty)
+  File "/home/pmallya/obj-det2/eval.py", line 419, in _prepare_data
+    rets = clean_data(gt_annos[i], dt_annos[i], current_class, difficulty)
+  File "/home/pmallya/obj-det2/eval.py", line 53, in clean_data
+    if ((gt_anno["occluded"][i] > MAX_OCCLUSION[difficulty])
+TypeError: 'int' object is not subscriptable
