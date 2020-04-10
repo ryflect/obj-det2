@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "infer_nusc_kitti.py", line 65, in <module>
-    infer_file.write("Car 0.0 0.0 0.0 ".join(i.numpy().tolist()) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 \n")
-TypeError: sequence item 0: expected str instance, float found
