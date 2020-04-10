@@ -11,4 +11,4 @@ Traceback (most recent call last):
     rets = clean_data(gt_annos[i], dt_annos[i], current_class, difficulty)
   File "/home/pmallya/obj-det2/eval.py", line 53, in clean_data
     if ((gt_anno["occluded"][i] > MAX_OCCLUSION[difficulty])
-TypeError: 'int' object is not subscriptable
+IndexError: index 1 is out of bounds for axis 0 with size 1
