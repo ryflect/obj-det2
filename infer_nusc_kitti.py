@@ -63,12 +63,12 @@ for filename in os.listdir(directory):
                 if infer_classes[box_count] == 2:
                     infer_0.append(i.numpy().tolist())
                     w_string = "Car 0.0 0.0 0.0 " + " ".join([str(k) for k in i.numpy().tolist()]) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0\n"
-                    print(w_string)
+                    # print(w_string)
                     infer_file.write(w_string)
                 elif infer_classes[box_count] == 0:
                     infer_1.append(i.numpy().tolist())
                     w_string = "Pedestrian 0.0 0.0 0.0 " + " ".join([str(k) for k in i.numpy().tolist()]) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0\n"
-                    print(w_string)
+                    # print(w_string)
                     infer_file.write(w_string)
                 box_count = box_count + 1
         
