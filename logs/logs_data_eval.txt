@@ -1,15 +1,8 @@
 Traceback (most recent call last):
-  File "data_eval.py", line 16, in <module>
-    print(get_official_eval_result(gt_annos, dt_annos, 0)) 
-  File "/home/pmallya/obj-det2/eval.py", line 642, in get_official_eval_result
-    gt_annos, dt_annos, current_classes, min_overlaps, compute_aos)
-  File "/home/pmallya/obj-det2/eval.py", line 574, in do_eval
-    min_overlaps, compute_aos)
-  File "/home/pmallya/obj-det2/eval.py", line 467, in eval_class
-    rets = calculate_iou_partly(dt_annos, gt_annos, metric, num_parts)
-  File "/home/pmallya/obj-det2/eval.py", line 345, in calculate_iou_partly
-    total_dt_num = np.stack([len(a["name"]) for a in dt_annos], 0)
-  File "<__array_function__ internals>", line 6, in stack
-  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/numpy/core/shape_base.py", line 422, in stack
-    raise ValueError('need at least one array to stack')
-ValueError: need at least one array to stack
+  File "data_eval.py", line 11, in <module>
+    dt_annos = kitti.get_label_annos(det_path, val_image_ids)
+  File "/home/pmallya/obj-det2/kitti_common.py", line 344, in get_label_annos
+    image_idx = get_image_index_str(idx)
+  File "/home/pmallya/obj-det2/kitti_common.py", line 11, in get_image_index_str
+    return "{:06d}".format(img_idx)
+ValueError: Unknown format code 'd' for object of type 'str'
