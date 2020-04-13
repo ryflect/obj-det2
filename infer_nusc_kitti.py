@@ -35,12 +35,12 @@ for filename in os.listdir(directory):
         infer["id"] = os.path.splitext(filename)[0]
         val_file.write(infer["id"] + "\n")
         infer_0 = []
-        infer_1 = []
-        infer_2 = []
+        # infer_1 = []
+        # infer_2 = []
         im = cv2.imread(directory + filename)
         cfg = get_cfg()
         cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
-        cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.7
+        cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.8
         cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml")
         predictor = DefaultPredictor(cfg)
         outputs = predictor(im)
@@ -65,11 +65,11 @@ for filename in os.listdir(directory):
                     w_string = "Car 0.0 0.0 0.0 " + " ".join([str(k) for k in i.numpy().tolist()]) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0\n"
                     # print(w_string)
                     infer_file.write(w_string)
-                elif infer_classes[box_count] == 0:
-                    infer_1.append(i.numpy().tolist())
-                    w_string = "Pedestrian 0.0 0.0 0.0 " + " ".join([str(k) for k in i.numpy().tolist()]) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0\n"
+                # elif infer_classes[box_count] == 0:
+                    # infer_1.append(i.numpy().tolist())
+                    # w_string = "Pedestrian 0.0 0.0 0.0 " + " ".join([str(k) for k in i.numpy().tolist()]) + " 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0\n"
                     # print(w_string)
-                    infer_file.write(w_string)
+                    # infer_file.write(w_string)
                 box_count = box_count + 1
         
         # print("Boxes: ")
@@ -78,7 +78,7 @@ for filename in os.listdir(directory):
         # print(inferred_output.pred_classes)        
         
         infer["Car"] = infer_0
-        infer["Pedestrian"] = infer_1
+        # infer["Pedestrian"] = infer_1
         output_json.append(infer)
         count = count + 1
         # if count == 10:

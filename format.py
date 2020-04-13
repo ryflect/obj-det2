@@ -27,23 +27,23 @@ for filename in os.listdir(directory):
             ground = {}
             ground["id"] = os.path.splitext(filename)[0]
             ground_0 = []
-            ground_1 = []
-            ground_2 = []
+            # ground_1 = []
+            # ground_2 = []
             for row in reader:
                 if row[0] == "Car":
                     bbox = list(float(i) for i in row[4:8])
                     ground_0.append(bbox)
-                elif row[0] == "Pedestrian":
-                    bbox = list(float(i) for i in row[4:8])
-                    ground_1.append(bbox)
-                elif row[0] == "Truck":
-                    bbox = list(float(i) for i in row[4:8])
-                    ground_2.append(bbox)
+                # elif row[0] == "Pedestrian":
+                    # bbox = list(float(i) for i in row[4:8])
+                    # ground_1.append(bbox)
+                # elif row[0] == "Truck":
+                #     bbox = list(float(i) for i in row[4:8])
+                #     ground_2.append(bbox)
                 else:
                     forgotten_labels.append(row[0])
             ground["Car"] = ground_0
-            ground["Pedestrian"] = ground_1
-            ground["Truck"] = ground_2
+            # ground["Pedestrian"] = ground_1
+            # ground["Truck"] = ground_2
             format_json.append(ground)
     else:
         continue 
