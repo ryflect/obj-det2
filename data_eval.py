@@ -11,13 +11,11 @@ val_image_ids = _read_imageset_file(gt_split_file)
 det_path = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/infer_2/"
 dt_annos = kitti.get_label_annos(det_path, val_image_ids)
 gt_path = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/label_2/"
-
-# gt_annos = kitti.get_label_annos(gt_path, val_image_ids)
 gt_annos = kitti.get_label_annos(gt_path, val_image_ids)
+
 # print(dt_annos)
 # print(gt_annos)
-with open("./outputs/eval_result.txt", "w") as f:
-    f.write("Official Eval Result:\n")
-    f.writelines(get_official_eval_result(gt_annos, dt_annos, 0))
-    f.write("\nCOCO Eval Result:\n")
-    print(get_coco_eval_result(gt_annos, dt_annos, 0))
+with open("./outputs/eval_result.json", "w", encoding="utf-8") as f:
+    json.dump(get_official_eval_result(gt_annos, dt_annos, 0), f, ensure_ascii=False, indent=4)
+    # f.write("\nCOCO Eval Result:\n")
+    # print(get_coco_eval_result(gt_annos, dt_annos, 0))
