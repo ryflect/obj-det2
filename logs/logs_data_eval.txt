@@ -18,7 +18,7 @@ During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "data_eval.py", line 23, in <module>
-    f.write(json.dumps(get_coco_eval_result(gt_annos, dt_annos, 0)))
+    f.writelines(get_coco_eval_result(gt_annos, dt_annos, 0))
   File "/home/pmallya/obj-det2/eval.py", line 718, in get_coco_eval_result
     gt_annos, dt_annos, current_classes, overlap_ranges, compute_aos)
   File "/home/pmallya/obj-det2/eval.py", line 595, in do_coco_style_eval
