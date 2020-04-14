@@ -6018,4 +6018,4 @@ Processing File:  f55ddd57d92944fdbfd0da838aaaf5b0.txt
 Processing File:  12d8d478ed3b43e78feae31551ed3d19.txt
 Processing File:  6ac4b1e312b84be28784f1280e53073a.txt
 Finished
-Forgotten Labels:  ['Motorcycle', 'Traffic_cone', 'Bicycle', 'Barrier', 'Construction_vehicle', 'Bus', 'Trailer']
+Forgotten Labels:  ['Bicycle', 'Bus', 'Construction_vehicle', 'Trailer', 'Pedestrian', 'Motorcycle', 'Traffic_cone', 'Barrier', 'Truck']
