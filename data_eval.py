@@ -19,5 +19,5 @@ gt_annos = kitti.get_label_annos(gt_path, val_image_ids)
 with open("./outputs/eval_result.txt", "w") as f:
     f.write("Official Eval Result:\n")
     f.write(json.dumps(get_official_eval_result(gt_annos, dt_annos, 0)))
-    f.write("COCO Eval Result:\n")
-    f.write(json.dumps(get_coco_eval_result(gt_annos, dt_annos, 0)))
+    f.write("\nCOCO Eval Result:\n")
+    f.writelines(get_coco_eval_result(gt_annos, dt_annos, 0))
