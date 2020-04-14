@@ -53,7 +53,7 @@ def get_dicts(img_dir, json_path):
     for v in image_anns:
         record = {}
         filename = os.path.join(img_dir, v["id"], ".txt")
-        print(filename)
+        # print(filename)
         record["file_name"] = filename
         record["id"] = v["id"]
         objs = []
