@@ -10,6 +10,20 @@ def d3_box_overlap_kernel(boxes, qboxes, rinc, criterion=-1):
 
   state.func_ir.loc))
 Traceback (most recent call last):
-  File "data_eval.py", line 20, in <module>
-    f.writelines(get_official_eval_result(gt_annos, dt_annos, 0))
-TypeError: write() argument must be str, not dict
+  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/numpy/core/function_base.py", line 117, in linspace
+    num = operator.index(num)
+TypeError: 'numpy.float64' object cannot be interpreted as an integer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "data_eval.py", line 23, in <module>
+    f.write(json.dumps(get_coco_eval_result(gt_annos, dt_annos, 0)))
+  File "/home/pmallya/obj-det2/eval.py", line 718, in get_coco_eval_result
+    gt_annos, dt_annos, current_classes, overlap_ranges, compute_aos)
+  File "/home/pmallya/obj-det2/eval.py", line 595, in do_coco_style_eval
+    min_overlaps[:, i, j] = np.linspace(*overlap_ranges[:, i, j])
+  File "<__array_function__ internals>", line 6, in linspace
+  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/numpy/core/function_base.py", line 121, in linspace
+    .format(type(num)))
+TypeError: object of type <class 'numpy.float64'> cannot be safely interpreted as an integer.
