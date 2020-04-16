@@ -23,7 +23,6 @@ directory = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/"
 infer_directory = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/infer_2/"
 output_json = []
 draw_output_flag = False
-id_num = 0
 count = 0
 plt.rcParams['figure.figsize'] = [20, 10]
 # generate ids for val set
@@ -50,8 +49,7 @@ for filename in os.listdir(directory):
             v = Visualizer(im[:, :, ::-1], MetadataCatalog.get(cfg.DATASETS.TRAIN[0]), scale=1.2)
             v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
             plt.imshow(v.get_image()[:, :, ::-1])
-            plt.savefig("./output/inferred_" + str(id_num) + ".png")
-            id_num = id_num + 1
+            plt.savefig("./output/inferred_" + str(infer["id"]) + ".png")
             
         infer_classes = inferred_output.pred_classes.numpy()
         infer_bbox = inferred_output.pred_boxes

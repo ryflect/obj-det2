@@ -40,10 +40,10 @@ def infer_single_image(image_name):
 # save figure that outputs the ground truth as well
 def show_ground_truth(dict, annotations):
     im = cv2.imread(dict["file_name"])
-    v = Visualizer(im[:, :, ::-1], metadata=annotations, scale=0.8, )
+    v = Visualizer(im[:, :, ::-1], metadata=annotations, scale=0.8)
     vis = v.draw_dataset_dict(dict)
     plt.imshow(vis.get_image()[:, :, ::-1])
-    plt.savefig("./output/" + dict["id"] + "_ground.png")
+    plt.savefig("/mnt/nfs/scratch1/pmallya/nusc_kitti/val/downloads/" + dict["id"] + "_ground.png")
 
 def get_dicts(img_dir, json_path):
     with open(json_path) as f:
@@ -52,7 +52,7 @@ def get_dicts(img_dir, json_path):
     dataset_dicts = []
     for v in image_anns:
         record = {}
-        filename = os.path.join(img_dir, v["id"], ".txt")
+        filename = os.path.join(img_dir, v["id"], ".png")
         # print(filename)
         record["file_name"] = filename
         record["id"] = v["id"]
@@ -91,5 +91,7 @@ nusc_dicts_infer = get_dicts("/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/"
 print(len(nusc_dicts_ground))
 print(len(nusc_dicts_infer))
 
-# infer_single_image("b139c133286247d48093bba9151920b2.png", 15)
-# show_ground_truth("b139c133286247d48093bba9151920b2.png", nusc_dicts_ground, 15)
+plt.rcParams['figure.figsize'] = [20, 10]
+for d in random.sample(nusc_dicts_ground, 1):
+    show_ground_truth(d, nusc_metadata_ground)
+    show_ground_truth(d, nusc_metadata_infer)
