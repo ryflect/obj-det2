@@ -53,7 +53,7 @@ def get_dicts(img_dir, json_path):
     dataset_dicts = []
     for v in image_anns:
         record = {}
-        filename = os.path.join(img_dir, v["id"], ".png")
+        filename = os.path.join(img_dir, v["id"]) + ".png"
         # print(filename)
         record["file_name"] = filename
         record["id"] = v["id"]
