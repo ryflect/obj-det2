@@ -1,2 +1,3 @@
 6019
 6019
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/112aa7a7edfc4df6b8e9775b14f74e12/.png', 'id': '112aa7a7edfc4df6b8e9775b14f74e12', 'annotations': [{'bbox': [831.3, 488.73, 880.17, 530.98], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [692.83, 472.6, 785.45, 542.37], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
