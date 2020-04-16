@@ -4,9 +4,3 @@ Bad key "text.kerning_factor" on line 4 in
 You probably need to get an updated matplotlibrc file from
 https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
 or from the matplotlib source distribution
-Traceback (most recent call last):
-  File "visualize_data.py", line 107, in <module>
-    infer_dict = next((i for i in nusc_dicts_infer if nusc_dicts_infer["id"] == nusc_dicts_ground[d]["id"]), None)
-  File "visualize_data.py", line 107, in <genexpr>
-    infer_dict = next((i for i in nusc_dicts_infer if nusc_dicts_infer["id"] == nusc_dicts_ground[d]["id"]), None)
-TypeError: list indices must be integers or slices, not str
