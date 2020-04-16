@@ -40,6 +40,7 @@ def infer_single_image(image_name):
 # save figure that outputs the ground truth as well
 def show_ground_truth(dict, annotations):
     im = cv2.imread(dict["file_name"])
+    print("IM:", im)
     v = Visualizer(im[:, :, ::-1], metadata=annotations, scale=0.8)
     vis = v.draw_dataset_dict(dict)
     plt.imshow(vis.get_image()[:, :, ::-1])
