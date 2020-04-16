@@ -93,5 +93,6 @@ print(len(nusc_dicts_infer))
 
 plt.rcParams['figure.figsize'] = [20, 10]
 for d in random.sample(nusc_dicts_ground, 1):
+    print(d)
     show_ground_truth(d, nusc_metadata_ground)
     show_ground_truth(d, nusc_metadata_infer)
