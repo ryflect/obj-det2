@@ -104,6 +104,7 @@ plt.rcParams['figure.figsize'] = [20, 10]
 for d in random.sample(range(len(nusc_dicts_ground)), 20):
     print(d)
     print(nusc_dicts_ground[d])
-    print(nusc_dicts_infer[d])
+    infer_dict = next((i for i in nusc_dicts_infer if nusc_dicts_infer["id"] == nusc_dicts_ground[d]["id"]), None)
+    print(infer_dict)
     show_ground_truth(nusc_dicts_ground[d], nusc_metadata_ground)
-    show_infer(nusc_dicts_infer[d], nusc_metadata_infer)
+    show_infer(infer_dict, nusc_metadata_infer)
