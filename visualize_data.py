@@ -20,9 +20,9 @@ from detectron2.utils.visualizer import Visualizer
 from detectron2.data import DatasetCatalog, MetadataCatalog
 
 # inference for a single image
-def infer_single_image(image_name):
+def infer_single_image(dict):
     # print("Single Image Inference")
-    im = cv2.imread("/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/" + image_name)
+    im = cv2.imread(dict["file_name"])
     cfg = get_cfg()
     cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.7
@@ -34,7 +34,7 @@ def infer_single_image(image_name):
     v = v.draw_instance_predictions(outputs["instances"].to("cpu"))
     plt.rcParams['figure.figsize'] = [20, 10]
     plt.imshow(v.get_image()[:, :, ::-1])
-    plt.savefig("./output/" + str(image_name) + "_inferred.png")
+    plt.savefig("/mnt/nfs/scratch1/pmallya/nusc_kitti/val/downloads/" + dict["id"] + "_inferred.png")
     return outputs["instances"].to("cpu")
 
 # save figure that outputs the ground truth as well
@@ -108,3 +108,9 @@ for d in random.sample(range(len(nusc_dicts_ground)), 20):
     print(infer_dict)
     show_ground_truth(nusc_dicts_ground[d], nusc_metadata_ground)
     show_infer(infer_dict, nusc_metadata_infer)
+    inferred_output = infer_single_image(infer_dict)
+    print("Boxes: ")
+    print(inferred_output.pred_boxes)
+    print("Classes: ")
+    print(inferred_output.pred_classes)
+    print("_____________________________________________________________________________________________________________________")
