@@ -1,428 +1,541 @@
 6019
 6019
-1763
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/6d1abf2d329c483d923683764e9df8b5.png', 'id': '6d1abf2d329c483d923683764e9df8b5', 'annotations': [{'bbox': [1218.61, 481.5, 1600.0, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [767.42, 475.19, 915.56, 604.95], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [712.0, 468.4, 1006.93, 696.79], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/6d1abf2d329c483d923683764e9df8b5.png', 'id': '6d1abf2d329c483d923683764e9df8b5', 'annotations': [{'bbox': [716.80224609375, 473.2138977050781, 976.417236328125, 687.9561767578125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1229.371337890625, 491.6944885253906, 1594.454833984375, 860.1077880859375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+3419
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/657b2fe881834950a629c05285b2055a.png', 'id': '657b2fe881834950a629c05285b2055a', 'annotations': [{'bbox': [1222.72, 456.46, 1551.29, 653.33], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1433.97, 473.61, 1600.0, 628.58], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [57.88, 438.08, 220.17, 489.06], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1098.38, 475.13, 1163.32, 515.17], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [901.5, 464.99, 1066.35, 530.88], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [398.38, 456.71, 613.51, 533.78], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/657b2fe881834950a629c05285b2055a.png', 'id': '657b2fe881834950a629c05285b2055a', 'annotations': [{'bbox': [1500.2978515625, 471.5111389160156, 1599.8082275390625, 609.0305786132812], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [905.0032958984375, 466.8114318847656, 1057.169921875, 529.10205078125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1225.2947998046875, 452.4867248535156, 1525.0111083984375, 631.3531494140625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [405.5668029785156, 459.4466857910156, 608.1593017578125, 531.4196166992188], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1099.3984375, 474.5644836425781, 1157.7523193359375, 513.10888671875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [41.87440490722656, 441.69976806640625, 211.6422576904297, 489.8559265136719], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1067.64453125, 471.858642578125, 1101.908203125, 506.20928955078125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1.2049567699432373, 451.5075378417969, 41.073299407958984, 483.1060485839844], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
 Boxes: 
-Boxes(tensor([[ 716.8022,  473.2139,  976.4172,  687.9562],
-        [1229.3713,  491.6945, 1594.4548,  860.1078],
-        [ 567.6536,  466.1149,  603.7143,  560.8357],
-        [ 839.6754,  361.9310,  854.2182,  391.2510],
-        [ 908.0018,  352.9346,  923.6173,  392.0578],
-        [ 942.3610,  339.7767, 1294.3270,  589.7186],
-        [1314.7344,  327.9691, 1332.8563,  360.2766],
-        [ 985.5971,  356.5976, 1001.6133,  388.7101]]))
+Boxes(tensor([[1.5003e+03, 4.7151e+02, 1.5998e+03, 6.0903e+02],
+        [9.0500e+02, 4.6681e+02, 1.0572e+03, 5.2910e+02],
+        [7.9520e+01, 4.2906e+02, 1.3315e+02, 5.5597e+02],
+        [1.2253e+03, 4.5249e+02, 1.5250e+03, 6.3135e+02],
+        [5.8594e+02, 4.6284e+02, 6.2971e+02, 5.6136e+02],
+        [8.4613e+02, 4.5972e+02, 8.7121e+02, 5.4713e+02],
+        [4.0557e+02, 4.5945e+02, 6.0816e+02, 5.3142e+02],
+        [1.0994e+03, 4.7456e+02, 1.1578e+03, 5.1311e+02],
+        [7.7045e+02, 4.5999e+02, 8.0653e+02, 5.5228e+02],
+        [4.1874e+01, 4.4170e+02, 2.1164e+02, 4.8986e+02],
+        [1.0676e+03, 4.7186e+02, 1.1019e+03, 5.0621e+02],
+        [6.7394e+02, 4.5313e+02, 7.0836e+02, 5.4896e+02],
+        [6.1801e+02, 4.5490e+02, 6.5103e+02, 5.6113e+02],
+        [9.9215e+02, 3.5811e+02, 1.0214e+03, 4.1885e+02],
+        [6.4470e+02, 4.6330e+02, 6.6992e+02, 5.5963e+02],
+        [1.2050e+00, 4.5151e+02, 4.1073e+01, 4.8311e+02],
+        [1.2229e+02, 4.4108e+02, 2.1025e+02, 4.8803e+02],
+        [7.2857e+02, 4.6187e+02, 7.6203e+02, 5.4938e+02],
+        [1.2334e+03, 4.3312e+02, 1.3496e+03, 5.0648e+02]]))
 Classes: 
-tensor([2, 2, 0, 9, 9, 5, 9, 9])
+tensor([2, 2, 0, 2, 0, 0, 2, 2, 0, 2, 2, 0, 0, 9, 0, 2, 2, 0, 2])
 _____________________________________________________________________________________________________________________
-4889
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/8b17a8d9c23a4a849ec471da90fec39e.png', 'id': '8b17a8d9c23a4a849ec471da90fec39e', 'annotations': [{'bbox': [681.26, 453.95, 771.16, 538.3], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [382.52, 497.99, 499.29, 544.3], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [149.47, 502.37, 294.78, 553.29], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [787.97, 460.33, 919.83, 572.17], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/8b17a8d9c23a4a849ec471da90fec39e.png', 'id': '8b17a8d9c23a4a849ec471da90fec39e', 'annotations': [{'bbox': [796.3853149414062, 466.884033203125, 908.7142333984375, 568.1321411132812], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [390.8420104980469, 506.4599304199219, 500.0235900878906, 536.1640625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [568.2045288085938, 499.0877380371094, 591.969970703125, 516.0069580078125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [183.6654815673828, 505.3623352050781, 301.7988586425781, 559.01708984375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [639.80078125, 488.0609130859375, 672.6013793945312, 519.8670043945312], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+3839
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/5fe961cfd2b444b0898c3abb7c969e77.png', 'id': '5fe961cfd2b444b0898c3abb7c969e77', 'annotations': []}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/5fe961cfd2b444b0898c3abb7c969e77.png', 'id': '5fe961cfd2b444b0898c3abb7c969e77', 'annotations': [{'bbox': [0.01787327416241169, 493.30419921875, 43.79717254638672, 601.8145751953125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
 Boxes: 
-Boxes(tensor([[ 796.3853,  466.8840,  908.7142,  568.1321],
-        [ 792.1406,  397.8122,  803.2584,  420.9268],
-        [ 340.7254,  509.3289,  369.1003,  557.8657],
-        [ 390.8420,  506.4599,  500.0236,  536.1641],
-        [ 568.2045,  499.0877,  591.9700,  516.0070],
-        [ 183.6655,  505.3623,  301.7989,  559.0171],
-        [ 371.8995,  497.2495,  395.9138,  555.7350],
-        [ 639.8008,  488.0609,  672.6014,  519.8670],
-        [ 715.4391,  401.0498,  727.0054,  424.0559],
-        [1354.1973,  286.5961, 1373.4124,  324.3502],
-        [ 960.1062,  334.0901,  974.7419,  368.7765],
-        [1436.3948,  273.8482, 1457.4414,  316.1234],
-        [1000.0638,  348.2729, 1013.7822,  390.1595],
-        [ 380.4440,  507.3715,  400.3339,  556.1455]]))
+Boxes(tensor([[2.9451e+02, 3.5424e+02, 5.8394e+02, 5.5523e+02],
+        [9.0518e+02, 4.6795e+02, 9.2416e+02, 5.1438e+02],
+        [1.7873e-02, 4.9330e+02, 4.3797e+01, 6.0181e+02],
+        [9.8822e+02, 4.6622e+02, 1.0058e+03, 5.1549e+02],
+        [9.6621e+02, 4.6828e+02, 9.8324e+02, 5.1744e+02],
+        [9.5934e+02, 4.6783e+02, 9.7516e+02, 5.1605e+02],
+        [7.3554e+02, 4.7335e+02, 7.6999e+02, 4.8791e+02],
+        [6.8192e+02, 4.7132e+02, 6.9122e+02, 4.9365e+02]]))
 Classes: 
-tensor([2, 9, 0, 2, 2, 2, 0, 2, 9, 9, 9, 9, 9, 0])
+tensor([7, 0, 2, 0, 0, 0, 2, 0])
 _____________________________________________________________________________________________________________________
-5772
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/0733caf02ebc44e7adf20c704821ea6b.png', 'id': '0733caf02ebc44e7adf20c704821ea6b', 'annotations': []}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/0733caf02ebc44e7adf20c704821ea6b.png', 'id': '0733caf02ebc44e7adf20c704821ea6b', 'annotations': []}
+1541
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/7e06e46c6ecd41cbb6bf92aaee90ac3f.png', 'id': '7e06e46c6ecd41cbb6bf92aaee90ac3f', 'annotations': [{'bbox': [1144.65, 478.62, 1280.28, 592.59], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/7e06e46c6ecd41cbb6bf92aaee90ac3f.png', 'id': '7e06e46c6ecd41cbb6bf92aaee90ac3f', 'annotations': [{'bbox': [1152.74560546875, 487.5412292480469, 1275.0709228515625, 581.110107421875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
 Boxes: 
-Boxes(tensor([[1033.0225,  351.6218, 1096.3977,  418.5640]]))
+Boxes(tensor([[1152.7456,  487.5412, 1275.0709,  581.1101]]))
 Classes: 
-tensor([11])
+tensor([2])
 _____________________________________________________________________________________________________________________
-2558
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/dcdbd1100ef14eb0b00e272bc01b8b21.png', 'id': 'dcdbd1100ef14eb0b00e272bc01b8b21', 'annotations': [{'bbox': [763.23, 435.24, 929.91, 601.36], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/dcdbd1100ef14eb0b00e272bc01b8b21.png', 'id': 'dcdbd1100ef14eb0b00e272bc01b8b21', 'annotations': []}
+4100
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/8d265c91cc944ba790c09e74d2811d08.png', 'id': '8d265c91cc944ba790c09e74d2811d08', 'annotations': []}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/8d265c91cc944ba790c09e74d2811d08.png', 'id': '8d265c91cc944ba790c09e74d2811d08', 'annotations': [{'bbox': [1271.941162109375, 490.95416259765625, 1303.6326904296875, 511.7507019042969], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
 Boxes: 
-Boxes(tensor([[ 568.7244,  454.6447,  604.6915,  556.9511],
-        [1233.1572,  469.6599, 1264.7426,  555.7795],
-        [1259.5476,  471.9023, 1282.9119,  558.7586],
-        [ 523.6932,  290.0328,  574.3071,  377.2124],
-        [1429.4944,  345.5476, 1455.1959,  418.0226],
-        [1160.0527,  463.0577, 1188.7352,  500.6948],
-        [ 768.3042,  470.0736,  786.5231,  481.4755]]))
+Boxes(tensor([[1271.9412,  490.9542, 1303.6327,  511.7507]]))
 Classes: 
-tensor([0, 0, 0, 9, 9, 0, 2])
+tensor([2])
 _____________________________________________________________________________________________________________________
-1269
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/5986a2bd42ec4cd4bacd1ff986a36882.png', 'id': '5986a2bd42ec4cd4bacd1ff986a36882', 'annotations': []}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/5986a2bd42ec4cd4bacd1ff986a36882.png', 'id': '5986a2bd42ec4cd4bacd1ff986a36882', 'annotations': []}
+2636
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/b7f64f73e8a548488e6d85d9b0e13242.png', 'id': 'b7f64f73e8a548488e6d85d9b0e13242', 'annotations': [{'bbox': [177.07, 479.0, 587.73, 608.42], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [594.28, 481.16, 618.73, 499.09], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [218.29, 487.89, 461.95, 554.67], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [569.47, 485.68, 595.98, 508.82], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/b7f64f73e8a548488e6d85d9b0e13242.png', 'id': 'b7f64f73e8a548488e6d85d9b0e13242', 'annotations': [{'bbox': [185.83424377441406, 481.6119689941406, 575.6991577148438, 600.6534423828125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 461.1826477050781, 134.6744842529297, 585.0103759765625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [659.871337890625, 474.15313720703125, 677.251220703125, 490.3042907714844], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [576.2402954101562, 482.4624328613281, 599.955810546875, 498.20281982421875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
 Boxes: 
-Boxes(tensor([[727.9106, 423.7078, 776.5568, 502.4993]]))
+Boxes(tensor([[ 185.8342,  481.6120,  575.6992,  600.6534],
+        [   0.0000,  461.1826,  134.6745,  585.0104],
+        [1041.4551,  187.1652, 1069.6660,  252.9164],
+        [ 588.4758,  326.1407,  609.9245,  367.1715],
+        [ 723.9997,  318.6611,  746.9949,  363.9404],
+        [1172.5609,   46.4459, 1222.2419,  161.5849],
+        [1093.2585,  115.6543, 1128.9756,  214.1332],
+        [1447.5956,   17.3919, 1506.0127,  199.3908],
+        [ 659.8713,  474.1531,  677.2512,  490.3043],
+        [ 576.2403,  482.4624,  599.9558,  498.2028],
+        [ 708.9769,  478.9709,  723.8207,  490.2613]]))
 Classes: 
-tensor([5])
+tensor([2, 2, 9, 9, 9, 9, 9, 9, 2, 2, 2])
 _____________________________________________________________________________________________________________________
-4049
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/bb972464787f4ecab2e9d77c7a0cb9f7.png', 'id': 'bb972464787f4ecab2e9d77c7a0cb9f7', 'annotations': [{'bbox': [1382.3, 483.52, 1476.35, 526.37], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/bb972464787f4ecab2e9d77c7a0cb9f7.png', 'id': 'bb972464787f4ecab2e9d77c7a0cb9f7', 'annotations': [{'bbox': [1391.6531982421875, 487.5515441894531, 1459.8021240234375, 522.8328247070312], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1554.231689453125, 496.1757507324219, 1599.191650390625, 522.9291381835938], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+2355
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/addf60d723774239a47582798aaa2146.png', 'id': 'addf60d723774239a47582798aaa2146', 'annotations': [{'bbox': [921.99, 480.79, 962.66, 513.41], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [656.63, 458.14, 740.26, 511.76], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [478.39, 492.41, 567.77, 538.27], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [611.43, 479.86, 669.87, 514.66], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [797.17, 484.1, 831.76, 510.48], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [838.89, 482.6, 928.44, 555.26], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [572.21, 483.31, 640.5, 522.41], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [523.52, 489.93, 599.35, 529.68], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 508.25, 78.29, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/addf60d723774239a47582798aaa2146.png', 'id': 'addf60d723774239a47582798aaa2146', 'annotations': [{'bbox': [841.3125, 484.4395446777344, 926.21484375, 555.1717529296875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [794.0005493164062, 481.7978515625, 826.2817993164062, 506.1497802734375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [550.3306274414062, 491.0261535644531, 589.851806640625, 528.9537963867188], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [513.9899291992188, 492.1037292480469, 561.3777465820312, 535.6973266601562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [586.083984375, 485.52606201171875, 630.2756958007812, 525.5465087890625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [628.6143798828125, 485.2454833984375, 662.10791015625, 514.725341796875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1.8931018114089966, 576.9747314453125, 80.04589080810547, 726.30224609375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
 Boxes: 
-Boxes(tensor([[ 235.0098,  468.5509,  282.7961,  580.3520],
-        [ 543.7211,  492.1705,  628.9962,  543.4069],
-        [ 405.1526,  464.8221,  425.6798,  524.6191],
-        [1391.6532,  487.5515, 1459.8021,  522.8328],
-        [1554.2317,  496.1758, 1599.1917,  522.9291],
-        [ 570.4808,  476.6732,  598.0842,  529.3879],
-        [ 430.9976,  466.2848,  451.1515,  486.7196],
-        [1064.7255,  507.4467, 1082.4197,  558.6279],
-        [1113.3768,  479.7867, 1133.9543,  534.8710]]))
+Boxes(tensor([[841.3125, 484.4395, 926.2148, 555.1718],
+        [794.0005, 481.7979, 826.2818, 506.1498],
+        [550.3306, 491.0262, 589.8518, 528.9538],
+        [513.9899, 492.1037, 561.3777, 535.6973],
+        [586.0840, 485.5261, 630.2757, 525.5465],
+        [628.6144, 485.2455, 662.1079, 514.7253],
+        [  1.8931, 576.9747,  80.0459, 726.3022],
+        [920.9957, 481.2230, 958.5545, 512.1515],
+        [398.7211, 477.9865, 511.1415, 545.1320]]))
 Classes: 
-tensor([ 0,  3,  0,  2,  2,  0,  0, 12,  0])
+tensor([2, 2, 2, 2, 2, 2, 2, 2, 2])
 _____________________________________________________________________________________________________________________
-5170
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/44a22e08d57b40d4bf7077a060741383.png', 'id': '44a22e08d57b40d4bf7077a060741383', 'annotations': []}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/44a22e08d57b40d4bf7077a060741383.png', 'id': '44a22e08d57b40d4bf7077a060741383', 'annotations': []}
+5411
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4c27ebb8e9404db7a61a59a83c9d0148.png', 'id': '4c27ebb8e9404db7a61a59a83c9d0148', 'annotations': [{'bbox': [979.46, 492.17, 1067.05, 524.35], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1387.9, 486.82, 1515.95, 533.44], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1407.76, 489.35, 1546.78, 538.59], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [895.92, 492.4, 948.63, 532.87], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [758.2, 477.65, 835.15, 561.1], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1091.46, 484.11, 1207.76, 529.68], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1518.2, 492.63, 1600.0, 550.23], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1470.42, 487.45, 1600.0, 541.62], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1565.04, 483.73, 1600.0, 549.12], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1275.51, 493.21, 1375.94, 530.11], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4c27ebb8e9404db7a61a59a83c9d0148.png', 'id': '4c27ebb8e9404db7a61a59a83c9d0148', 'annotations': [{'bbox': [899.515625, 494.8130798339844, 948.515625, 534.4343872070312], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [769.177001953125, 479.1414794921875, 841.0972290039062, 539.398193359375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1053.3299560546875, 496.0509033203125, 1119.2919921875, 533.197265625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1005.1980590820312, 487.8650207519531, 1063.1954345703125, 528.6869506835938], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 899.5156,  494.8131,  948.5156,  534.4344],
+        [ 837.7753,  488.3138,  862.3038,  541.0586],
+        [ 769.1770,  479.1415,  841.0972,  539.3982],
+        [1053.3300,  496.0509, 1119.2920,  533.1973],
+        [1005.1981,  487.8650, 1063.1954,  528.6870],
+        [ 983.3669,  485.2693, 1024.3572,  523.7007]]))
+Classes: 
+tensor([2, 0, 2, 2, 2, 2])
+_____________________________________________________________________________________________________________________
+2992
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/adeaf11f05224db3889c9e32dc658e7d.png', 'id': 'adeaf11f05224db3889c9e32dc658e7d', 'annotations': [{'bbox': [1558.37, 404.75, 1600.0, 484.19], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1200.23, 391.56, 1516.03, 508.94], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/adeaf11f05224db3889c9e32dc658e7d.png', 'id': 'adeaf11f05224db3889c9e32dc658e7d', 'annotations': [{'bbox': [1208.9068603515625, 397.8178405761719, 1506.023193359375, 514.3280029296875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1563.018310546875, 432.1539306640625, 1599.918701171875, 477.9237060546875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 720.5223,  290.0270,  742.6155,  337.9163],
+        [ 601.0361,  296.3254,  625.8036,  348.3610],
+        [1208.9069,  397.8178, 1506.0232,  514.3280],
+        [1429.4957,   41.3737, 1491.7457,  147.7673],
+        [1563.0183,  432.1539, 1599.9187,  477.9237]]))
+Classes: 
+tensor([9, 9, 2, 9, 2])
+_____________________________________________________________________________________________________________________
+5844
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/93a381ca06014d838eec1cab49cab79d.png', 'id': '93a381ca06014d838eec1cab49cab79d', 'annotations': [{'bbox': [214.91, 495.31, 370.68, 563.65], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [65.97, 494.31, 280.95, 591.63], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 505.87, 285.86, 634.14], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [844.13, 476.43, 889.26, 513.87], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [429.75, 480.57, 553.64, 557.13], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [282.53, 489.21, 441.38, 577.85], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [754.63, 479.3, 806.11, 518.35], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [631.88, 480.83, 749.38, 560.92], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/93a381ca06014d838eec1cab49cab79d.png', 'id': '93a381ca06014d838eec1cab49cab79d', 'annotations': [{'bbox': [6.414259433746338, 495.5655822753906, 278.9991149902344, 617.956787109375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [756.6671142578125, 478.2312316894531, 808.410400390625, 518.208740234375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [459.9181213378906, 480.8275451660156, 556.8071899414062, 547.8882446289062], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [296.92779541015625, 495.00982666015625, 378.24505615234375, 574.6076049804688], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [843.9716186523438, 470.4981384277344, 891.8302001953125, 512.5531616210938], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [645.4135131835938, 480.1800842285156, 754.4144897460938, 562.5656127929688], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [274.46331787109375, 497.1537780761719, 333.7318420410156, 559.284423828125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[   6.4143,  495.5656,  278.9991,  617.9568],
+        [ 756.6671,  478.2312,  808.4104,  518.2087],
+        [ 459.9181,  480.8275,  556.8072,  547.8882],
+        [ 296.9278,  495.0098,  378.2451,  574.6076],
+        [ 843.9716,  470.4981,  891.8302,  512.5532],
+        [ 645.4135,  480.1801,  754.4145,  562.5656],
+        [ 274.4633,  497.1538,  333.7318,  559.2844],
+        [1056.7107,  607.2476, 1073.7144,  641.8806]]))
+Classes: 
+tensor([2, 2, 2, 2, 2, 2, 2, 0])
+_____________________________________________________________________________________________________________________
+5999
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/cfbf02c6624c4cfb951493700683d461.png', 'id': 'cfbf02c6624c4cfb951493700683d461', 'annotations': []}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/cfbf02c6624c4cfb951493700683d461.png', 'id': 'cfbf02c6624c4cfb951493700683d461', 'annotations': []}
+Boxes: 
+Boxes(tensor([[1042.4106,  508.9303, 1053.0731,  536.2599],
+        [ 431.3177,  488.6499,  449.0150,  546.6033]]))
+Classes: 
+tensor([10,  0])
+_____________________________________________________________________________________________________________________
+5480
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4b5202b4625f48799812af5d212e68a4.png', 'id': '4b5202b4625f48799812af5d212e68a4', 'annotations': [{'bbox': [1022.78, 458.95, 1122.09, 518.3], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 492.0, 205.58, 588.78], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4b5202b4625f48799812af5d212e68a4.png', 'id': '4b5202b4625f48799812af5d212e68a4', 'annotations': [{'bbox': [0.4699386656284332, 491.44879150390625, 188.4358367919922, 574.7050170898438], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [617.4876098632812, 483.7369079589844, 674.8649291992188, 521.983154296875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1028.6845703125, 464.6110534667969, 1087.0908203125, 516.4141845703125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[4.6994e-01, 4.9145e+02, 1.8844e+02, 5.7471e+02],
+        [6.1749e+02, 4.8374e+02, 6.7486e+02, 5.2198e+02],
+        [1.0287e+03, 4.6461e+02, 1.0871e+03, 5.1641e+02],
+        [4.5274e+02, 4.2098e+02, 5.6443e+02, 5.3354e+02]]))
+Classes: 
+tensor([2, 2, 2, 7])
+_____________________________________________________________________________________________________________________
+5470
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/eba35b7afd6d4b9f8f4eebc6477933de.png', 'id': 'eba35b7afd6d4b9f8f4eebc6477933de', 'annotations': [{'bbox': [1257.25, 479.8, 1600.0, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [578.22, 466.11, 652.52, 517.42], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [668.8, 466.35, 715.4, 498.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [699.88, 468.59, 1009.36, 752.55], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [634.16, 471.16, 679.29, 506.27], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 492.16, 15.66, 551.27], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [766.63, 464.53, 910.55, 516.23], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [479.31, 475.17, 571.76, 511.67], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/eba35b7afd6d4b9f8f4eebc6477933de.png', 'id': 'eba35b7afd6d4b9f8f4eebc6477933de', 'annotations': [{'bbox': [711.8674926757812, 474.7059631347656, 999.9037475585938, 717.7283325195312], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1285.1043701171875, 498.2633972167969, 1600.0, 866.0376586914062], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [489.00482177734375, 475.3298645019531, 571.0198974609375, 514.0065307617188], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [586.9400634765625, 463.4454040527344, 650.9581298828125, 518.6100463867188], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [715.5198364257812, 467.2690124511719, 760.0076904296875, 495.9710388183594], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [675.26953125, 466.96978759765625, 708.994873046875, 494.9877014160156], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 711.8675,  474.7060,  999.9037,  717.7283],
+        [1285.1044,  498.2634, 1600.0000,  866.0377],
+        [ 489.0048,  475.3299,  571.0199,  514.0065],
+        [ 586.9401,  463.4454,  650.9581,  518.6100],
+        [ 910.0345,  360.9424,  924.1924,  396.6617],
+        [ 715.5198,  467.2690,  760.0077,  495.9710],
+        [ 843.5004,  367.9116,  857.8811,  396.0904],
+        [ 984.9971,  365.1760,  999.9839,  393.7837],
+        [ 960.8526,  298.7932, 1416.7061,  618.1855],
+        [ 868.8719,  435.6575,  875.7256,  449.8601],
+        [ 675.2695,  466.9698,  708.9949,  494.9877],
+        [ 642.6575,  467.1700,  681.3596,  504.0258]]))
+Classes: 
+tensor([2, 2, 2, 2, 9, 2, 9, 9, 5, 9, 2, 2])
+_____________________________________________________________________________________________________________________
+5529
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/74109c3e72b24fb48e2262dc869ba868.png', 'id': '74109c3e72b24fb48e2262dc869ba868', 'annotations': [{'bbox': [158.42, 495.07, 385.09, 592.88], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [337.67, 495.68, 484.04, 567.6], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/74109c3e72b24fb48e2262dc869ba868.png', 'id': '74109c3e72b24fb48e2262dc869ba868', 'annotations': [{'bbox': [203.97006225585938, 505.40948486328125, 370.7145690917969, 579.1393432617188], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [365.412109375, 498.2282409667969, 480.1680908203125, 560.9823608398438], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [511.8134765625, 495.00616455078125, 571.4993286132812, 523.4793701171875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[203.9701, 505.4095, 370.7146, 579.1393],
+        [365.4121, 498.2282, 480.1681, 560.9824],
+        [511.8135, 495.0062, 571.4993, 523.4794],
+        [470.7039, 498.3930, 515.1510, 521.7535]]))
+Classes: 
+tensor([2, 2, 2, 2])
+_____________________________________________________________________________________________________________________
+2195
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/0ece105f89d44a9388e8eb623e9cffdb.png', 'id': '0ece105f89d44a9388e8eb623e9cffdb', 'annotations': [{'bbox': [873.87, 475.37, 926.34, 531.55], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [932.01, 495.35, 955.78, 513.77], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 460.55, 114.18, 530.34], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/0ece105f89d44a9388e8eb623e9cffdb.png', 'id': '0ece105f89d44a9388e8eb623e9cffdb', 'annotations': [{'bbox': [0.35268980264663696, 467.9721984863281, 124.8363037109375, 532.447998046875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [935.8319702148438, 495.6202087402344, 956.537841796875, 514.6483154296875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1029.4520263671875, 482.1793518066406, 1086.234619140625, 536.1571655273438], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1.1021e+03, 2.5351e+02, 1.1513e+03, 3.8133e+02],
+        [1.5170e+03, 4.1191e+02, 1.5384e+03, 4.6595e+02],
+        [1.2975e+03, 4.4706e+02, 1.3108e+03, 4.7313e+02],
+        [3.5269e-01, 4.6797e+02, 1.2484e+02, 5.3245e+02],
+        [9.3583e+02, 4.9562e+02, 9.5654e+02, 5.1465e+02],
+        [1.0295e+03, 4.8218e+02, 1.0862e+03, 5.3616e+02],
+        [2.0290e+02, 4.8361e+02, 2.6102e+02, 5.3282e+02],
+        [8.7627e+02, 4.7764e+02, 9.2618e+02, 5.2683e+02]]))
+Classes: 
+tensor([9, 9, 9, 2, 2, 2, 1, 2])
+_____________________________________________________________________________________________________________________
+4378
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/16e9d365c1084c97a0702357646bc3e1.png', 'id': '16e9d365c1084c97a0702357646bc3e1', 'annotations': [{'bbox': [848.47, 439.62, 873.49, 459.3], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [841.88, 449.34, 873.46, 474.57], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/16e9d365c1084c97a0702357646bc3e1.png', 'id': '16e9d365c1084c97a0702357646bc3e1', 'annotations': []}
 Boxes: 
 Boxes(tensor([], size=(0, 4)))
 Classes: 
 tensor([], dtype=torch.int64)
 _____________________________________________________________________________________________________________________
-1260
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/e9eb134c214948ba90dd16ac5856244f.png', 'id': 'e9eb134c214948ba90dd16ac5856244f', 'annotations': [{'bbox': [1133.43, 452.43, 1388.83, 578.88], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1502.29, 448.81, 1600.0, 770.33], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [820.92, 471.21, 913.89, 541.02], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [770.93, 464.62, 830.6, 507.92], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [653.03, 463.97, 736.46, 519.62], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1288.09, 461.94, 1600.0, 622.88], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/e9eb134c214948ba90dd16ac5856244f.png', 'id': 'e9eb134c214948ba90dd16ac5856244f', 'annotations': [{'bbox': [822.2550048828125, 470.86602783203125, 901.9869384765625, 532.2481689453125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1291.2286376953125, 457.0506286621094, 1582.2384033203125, 613.9102783203125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1136.72216796875, 448.6731872558594, 1312.3240966796875, 569.6126708984375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [769.261474609375, 467.08856201171875, 832.1629028320312, 505.7139892578125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1517.658203125, 515.1306762695312, 1599.1270751953125, 651.8224487304688], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [649.9891967773438, 464.9671630859375, 732.3868408203125, 513.245361328125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+357
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/39711a523be04ea4b5dff56099d623eb.png', 'id': '39711a523be04ea4b5dff56099d623eb', 'annotations': [{'bbox': [1078.19, 441.96, 1159.75, 510.19], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/39711a523be04ea4b5dff56099d623eb.png', 'id': '39711a523be04ea4b5dff56099d623eb', 'annotations': [{'bbox': [1078.4140625, 444.5760192871094, 1158.2100830078125, 515.1265869140625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
 Boxes: 
-Boxes(tensor([[ 822.2550,  470.8660,  901.9869,  532.2482],
-        [1291.2286,  457.0506, 1582.2384,  613.9103],
-        [1136.7222,  448.6732, 1312.3241,  569.6127],
-        [ 228.3905,  536.7219,  252.3004,  582.7162],
-        [ 794.8795,  369.6620,  810.6240,  398.9389],
-        [ 769.2615,  467.0886,  832.1629,  505.7140],
-        [1158.9607,  326.9577, 1175.3994,  367.0954],
-        [1517.6582,  515.1307, 1599.1271,  651.8224],
-        [ 649.9892,  464.9672,  732.3868,  513.2454],
-        [ 726.9976,  409.4093,  736.9941,  435.5170],
-        [ 872.1119,  365.4138,  894.2376,  393.7975],
-        [ 641.0347,  293.5155,  667.1489,  347.4430],
-        [1118.6539,  333.4513, 1135.0996,  377.2809],
-        [1100.5909,  461.4836, 1166.7731,  498.0205],
-        [ 558.2399,  471.3394,  598.1254,  487.4350],
-        [ 727.5258,  423.8622,  736.0446,  434.8280],
-        [ 936.8265,  465.2568, 1011.0936,  493.8998],
-        [1001.0276,  462.5656, 1055.9891,  485.6635]]))
-Classes: 
-tensor([ 2,  2,  2, 10,  9,  2,  9,  2,  2,  9,  9,  9,  9,  2,  2,  9,  2,  2])
-_____________________________________________________________________________________________________________________
-1738
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4f678fa48380438fa73e79931cc86e45.png', 'id': '4f678fa48380438fa73e79931cc86e45', 'annotations': []}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4f678fa48380438fa73e79931cc86e45.png', 'id': '4f678fa48380438fa73e79931cc86e45', 'annotations': [{'bbox': [642.3543090820312, 445.4270324707031, 717.7459716796875, 490.32830810546875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[1028.3052,  468.7622, 1058.7797,  532.8931],
-        [ 290.3540,  142.4814,  356.1420,  303.0627],
-        [ 642.3543,  445.4270,  717.7460,  490.3283],
-        [ 351.4204,  161.9814,  435.5040,  302.1241],
-        [ 128.7191,  321.4610,  160.4217,  381.7950],
-        [ 335.1409,  389.2718,  365.8450,  426.9393]]))
-Classes: 
-tensor([0, 9, 2, 9, 9, 9])
-_____________________________________________________________________________________________________________________
-4542
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/43357fafe91d4c018e42f07f16fc383c.png', 'id': '43357fafe91d4c018e42f07f16fc383c', 'annotations': [{'bbox': [0.0, 392.98, 62.89, 460.88], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [66.65, 407.19, 257.91, 472.38], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1327.09, 466.55, 1476.93, 548.49], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [556.2, 441.02, 867.76, 560.7], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1348.15, 478.3, 1445.14, 530.69], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/43357fafe91d4c018e42f07f16fc383c.png', 'id': '43357fafe91d4c018e42f07f16fc383c', 'annotations': [{'bbox': [68.35049438476562, 406.7178039550781, 211.46957397460938, 464.3431396484375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1351.4107666015625, 467.1759338378906, 1453.4896240234375, 545.657958984375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [567.8604736328125, 446.92742919921875, 762.8998413085938, 549.2379150390625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1255.8529052734375, 470.16070556640625, 1318.6732177734375, 515.9152221679688], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.09150923788547516, 422.5351867675781, 40.98030471801758, 461.6300354003906], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[1.1552e+03, 4.3887e+02, 1.2316e+03, 6.0859e+02],
-        [1.5042e+02, 4.0280e+02, 2.6452e+02, 6.0928e+02],
-        [6.8350e+01, 4.0672e+02, 2.1147e+02, 4.6434e+02],
-        [1.3514e+03, 4.6718e+02, 1.4535e+03, 5.4566e+02],
-        [9.4637e+02, 4.5556e+02, 9.9995e+02, 6.0434e+02],
-        [1.3518e+03, 2.6813e+02, 1.4065e+03, 3.7490e+02],
-        [5.6786e+02, 4.4693e+02, 7.6290e+02, 5.4924e+02],
-        [6.4640e+02, 4.2852e+02, 6.8382e+02, 4.6538e+02],
-        [1.0543e+03, 4.4607e+02, 1.0923e+03, 5.6288e+02],
-        [5.6995e+02, 4.2145e+02, 5.9468e+02, 4.6306e+02],
-        [7.7254e+02, 4.3093e+02, 8.1128e+02, 5.8132e+02],
-        [7.4590e+02, 4.2976e+02, 7.8395e+02, 5.7510e+02],
-        [1.1002e+03, 4.6356e+02, 1.1137e+03, 5.0072e+02],
-        [1.2559e+03, 4.7016e+02, 1.3187e+03, 5.1592e+02],
-        [8.8875e+02, 4.2479e+02, 9.4408e+02, 6.0810e+02],
-        [8.4195e+02, 4.3129e+02, 8.9902e+02, 6.0207e+02],
-        [8.1030e+02, 4.3519e+02, 8.5188e+02, 5.9302e+02],
-        [9.1509e-02, 4.2254e+02, 4.0980e+01, 4.6163e+02],
-        [1.2056e+03, 3.2350e+02, 1.2195e+03, 3.4859e+02],
-        [5.9113e+02, 4.1924e+02, 6.1165e+02, 4.6105e+02]]))
-Classes: 
-tensor([0, 0, 2, 2, 0, 9, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 9, 0])
-_____________________________________________________________________________________________________________________
-4752
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/6fc78b0072614c04b88f4da1862ff5af.png', 'id': '6fc78b0072614c04b88f4da1862ff5af', 'annotations': [{'bbox': [745.23, 459.45, 788.33, 500.51], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [374.96, 464.73, 543.78, 556.52], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 468.94, 161.95, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [558.32, 468.0, 619.27, 511.63], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [769.96, 474.99, 937.73, 635.09], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [564.54, 435.49, 742.46, 584.66], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [310.92, 473.95, 550.18, 618.52], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 449.5, 514.0, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/6fc78b0072614c04b88f4da1862ff5af.png', 'id': '6fc78b0072614c04b88f4da1862ff5af', 'annotations': [{'bbox': [1.9027401208877563, 493.38861083984375, 472.11669921875, 829.7780151367188], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [770.6861572265625, 478.6674499511719, 922.1296997070312, 604.5075073242188], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [357.0699462890625, 485.2334289550781, 544.3289794921875, 594.9270629882812], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [502.65533447265625, 460.5743103027344, 557.971435546875, 510.978271484375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [890.5399169921875, 457.3507995605469, 922.471923828125, 481.1707458496094], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1369.143310546875, 457.5724792480469, 1545.75537109375, 492.9910888671875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[   1.9027,  493.3886,  472.1167,  829.7780],
-        [ 770.6862,  478.6674,  922.1297,  604.5075],
-        [ 357.0699,  485.2334,  544.3290,  594.9271],
-        [1065.3179,  258.9570, 1088.9497,  313.7966],
-        [ 502.6553,  460.5743,  557.9714,  510.9783],
-        [ 834.7433,  339.1926,  851.0295,  380.0309],
-        [ 890.5399,  457.3508,  922.4719,  481.1707],
-        [ 929.6002,  340.7154,  946.8245,  377.5013],
-        [1031.1552,  287.2302, 1050.6447,  328.0494],
-        [1118.0906,  427.1403, 1154.5226,  504.8000],
-        [1369.1433,  457.5725, 1545.7554,  492.9911],
-        [ 806.3998,  457.2945,  830.8937,  474.5649],
-        [ 570.9233,  435.8822,  727.3293,  575.1684],
-        [ 835.8652,  357.6689,  850.2357,  379.7108]]))
-Classes: 
-tensor([2, 2, 2, 9, 2, 9, 2, 9, 9, 0, 2, 2, 7, 9])
-_____________________________________________________________________________________________________________________
-5495
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/9f00ff39034d4e11ac09542c909742c9.png', 'id': '9f00ff39034d4e11ac09542c909742c9', 'annotations': [{'bbox': [1254.74, 476.96, 1496.16, 576.2], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1057.15, 465.19, 1136.8, 517.7], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [986.3, 471.36, 1035.39, 504.08], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1035.6, 470.79, 1098.6, 517.58], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [839.85, 478.2, 873.59, 506.65], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1084.87, 473.0, 1182.62, 526.41], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [630.04, 486.67, 685.73, 518.55], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [901.33, 477.45, 936.76, 505.21], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1145.63, 475.74, 1315.22, 556.29], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1015.46, 477.48, 1072.75, 513.98], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [427.28, 492.97, 548.14, 553.01], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/9f00ff39034d4e11ac09542c909742c9.png', 'id': '9f00ff39034d4e11ac09542c909742c9', 'annotations': [{'bbox': [435.9808654785156, 492.9126892089844, 536.3799438476562, 550.67724609375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1253.581787109375, 479.8625183105469, 1375.13671875, 570.9287109375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1147.7557373046875, 477.4730529785156, 1273.3138427734375, 550.8057861328125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [906.0496215820312, 478.2212829589844, 936.2325439453125, 503.6966857910156], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [841.4471435546875, 480.0959777832031, 870.8644409179688, 503.98486328125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1054.2325439453125, 468.36407470703125, 1115.4776611328125, 520.7766723632812], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [534.42822265625, 485.81976318359375, 613.8967895507812, 537.0254516601562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [663.6596069335938, 478.7768859863281, 704.4146728515625, 514.3736572265625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [595.712646484375, 480.6571044921875, 652.7281494140625, 527.1317138671875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1002.1508178710938, 475.3534240722656, 1046.639404296875, 511.5028991699219], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1037.247802734375, 472.9093933105469, 1067.660400390625, 514.9070434570312], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [775.9244995117188, 472.05096435546875, 811.1099243164062, 505.0598449707031], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1111.6361083984375, 458.0428466796875, 1199.8646240234375, 535.4794921875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[ 435.9809,  492.9127,  536.3799,  550.6772],
-        [1253.5818,  479.8625, 1375.1367,  570.9287],
-        [1147.7557,  477.4731, 1273.3138,  550.8058],
-        [ 906.0496,  478.2213,  936.2325,  503.6967],
-        [ 841.4471,  480.0960,  870.8644,  503.9849],
-        [1054.2325,  468.3641, 1115.4777,  520.7767],
-        [ 534.4282,  485.8198,  613.8968,  537.0255],
-        [ 663.6596,  478.7769,  704.4147,  514.3737],
-        [ 595.7126,  480.6571,  652.7281,  527.1317],
-        [1002.1508,  475.3534, 1046.6394,  511.5029],
-        [   1.7373,  479.8925,  299.6315,  624.2338],
-        [1037.2478,  472.9094, 1067.6604,  514.9070],
-        [ 775.9245,  472.0510,  811.1099,  505.0598],
-        [1111.6361,  458.0428, 1199.8646,  535.4795],
-        [ 875.5164,  473.2989,  890.3740,  486.9196]]))
-Classes: 
-tensor([2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 7, 2, 2, 2, 2])
-_____________________________________________________________________________________________________________________
-2791
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/583aa03b8674496fbe5155131d81a121.png', 'id': '583aa03b8674496fbe5155131d81a121', 'annotations': [{'bbox': [1027.06, 458.8, 1089.26, 501.52], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [951.71, 451.81, 1012.16, 501.11], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/583aa03b8674496fbe5155131d81a121.png', 'id': '583aa03b8674496fbe5155131d81a121', 'annotations': [{'bbox': [956.3955078125, 454.58673095703125, 1010.376953125, 500.1943664550781], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[  60.6528,  356.7581,  327.0549,  600.7372],
-        [ 956.3955,  454.5867, 1010.3770,  500.1944],
-        [ 386.3043,  385.0618,  836.3373,  544.3129]]))
-Classes: 
-tensor([7, 2, 7])
-_____________________________________________________________________________________________________________________
-3940
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/b4e7cdf41c2e479c9d9296a5868e0711.png', 'id': 'b4e7cdf41c2e479c9d9296a5868e0711', 'annotations': [{'bbox': [1263.06, 471.56, 1600.0, 859.18], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [911.05, 469.52, 954.94, 501.27], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/b4e7cdf41c2e479c9d9296a5868e0711.png', 'id': 'b4e7cdf41c2e479c9d9296a5868e0711', 'annotations': [{'bbox': [1305.2752685546875, 479.65972900390625, 1599.4949951171875, 785.369140625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [913.4729614257812, 471.1165466308594, 950.9070434570312, 501.0982360839844], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [880.6016845703125, 464.8766784667969, 902.434326171875, 484.4013671875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[1305.2753,  479.6597, 1599.4950,  785.3691],
-        [ 913.4730,  471.1165,  950.9070,  501.0982],
-        [ 880.6017,  464.8767,  902.4343,  484.4014]]))
+Boxes(tensor([[1078.4141,  444.5760, 1158.2101,  515.1266],
+        [1184.0864,  449.4650, 1204.6344,  468.2119],
+        [1186.7731,  445.2827, 1234.8263,  472.4340]]))
 Classes: 
 tensor([2, 2, 2])
 _____________________________________________________________________________________________________________________
-4178
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/15e3c606ce914cb9a30c3ea7747a1779.png', 'id': '15e3c606ce914cb9a30c3ea7747a1779', 'annotations': [{'bbox': [808.01, 454.49, 892.11, 500.62], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [555.9, 461.16, 1154.9, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [768.46, 469.92, 959.48, 632.86], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [760.62, 463.49, 870.0, 551.39], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/15e3c606ce914cb9a30c3ea7747a1779.png', 'id': '15e3c606ce914cb9a30c3ea7747a1779', 'annotations': [{'bbox': [626.4764404296875, 473.8335876464844, 1054.8223876953125, 828.938720703125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+1554
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/c54d5bb693884c459e245a0abd3e4952.png', 'id': 'c54d5bb693884c459e245a0abd3e4952', 'annotations': [{'bbox': [734.45, 465.56, 787.67, 510.93], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [684.85, 476.43, 1016.34, 775.29], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [767.19, 472.29, 807.76, 501.92], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/c54d5bb693884c459e245a0abd3e4952.png', 'id': 'c54d5bb693884c459e245a0abd3e4952', 'annotations': [{'bbox': [689.776611328125, 480.0242004394531, 990.1406860351562, 719.6976928710938], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1.0080370903015137, 436.6965026855469, 231.95037841796875, 695.8413696289062], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
 Boxes: 
-Boxes(tensor([[ 626.4764,  473.8336, 1054.8224,  828.9387],
-        [ 766.8714,  423.5465,  787.0309,  453.3966],
-        [ 827.2361,  453.7188,  878.9844,  485.4399]]))
-Classes: 
-tensor([2, 9, 2])
-_____________________________________________________________________________________________________________________
-4504
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/97411da2bf3b42aa8a147a8bf9fb950f.png', 'id': '97411da2bf3b42aa8a147a8bf9fb950f', 'annotations': [{'bbox': [666.46, 469.59, 697.03, 503.19], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [719.63, 483.53, 735.23, 496.38], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/97411da2bf3b42aa8a147a8bf9fb950f.png', 'id': '97411da2bf3b42aa8a147a8bf9fb950f', 'annotations': [{'bbox': [665.7554931640625, 471.7479553222656, 695.2869262695312, 502.896484375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[ 122.1110,  381.0618,  144.2496,  429.6445],
-        [ 665.7555,  471.7480,  695.2869,  502.8965],
-        [ 945.3821,  443.9904,  953.1262,  459.3260],
-        [ 609.8629,  441.1543,  618.1762,  457.3578],
-        [ 735.6413,  388.6960,  749.3205,  425.8529],
-        [1042.5479,  425.5081, 1054.7001,  457.9225]]))
-Classes: 
-tensor([9, 2, 9, 9, 9, 9])
-_____________________________________________________________________________________________________________________
-1167
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/1be89dec99ca4b3d8bad9acf8a7edfa5.png', 'id': '1be89dec99ca4b3d8bad9acf8a7edfa5', 'annotations': [{'bbox': [813.36, 474.22, 1034.35, 654.78], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/1be89dec99ca4b3d8bad9acf8a7edfa5.png', 'id': '1be89dec99ca4b3d8bad9acf8a7edfa5', 'annotations': [{'bbox': [819.4129638671875, 485.4826354980469, 1016.0353393554688, 635.8057250976562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[ 819.4130,  485.4826, 1016.0353,  635.8057],
-        [ 804.7811,  476.1599,  822.4589,  512.0894],
-        [1111.1664,  471.3465, 1136.6757,  537.6180]]))
-Classes: 
-tensor([2, 0, 0])
-_____________________________________________________________________________________________________________________
-3559
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/7115cfb231ab46edb37692f015cd3140.png', 'id': '7115cfb231ab46edb37692f015cd3140', 'annotations': [{'bbox': [850.95, 457.5, 937.15, 499.64], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [573.25, 456.26, 1132.5, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [773.4, 475.29, 949.94, 625.93], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [785.66, 471.98, 868.23, 538.33], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/7115cfb231ab46edb37692f015cd3140.png', 'id': '7115cfb231ab46edb37692f015cd3140', 'annotations': [{'bbox': [629.63330078125, 483.7763977050781, 1052.043701171875, 824.5371704101562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[ 629.6333,  483.7764, 1052.0437,  824.5372],
-        [ 857.6377,  457.3016,  930.8464,  492.0524],
-        [ 875.1682,  514.6315,  945.1192,  575.0164]]))
-Classes: 
-tensor([2, 2, 0])
-_____________________________________________________________________________________________________________________
-5611
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/7d8ff41747b74252ac3fb6efb0e0b120.png', 'id': '7d8ff41747b74252ac3fb6efb0e0b120', 'annotations': [{'bbox': [1425.61, 480.8, 1600.0, 637.64], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1332.38, 488.08, 1600.0, 634.24], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1549.12, 480.74, 1600.0, 610.82], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1480.22, 494.16, 1600.0, 632.71], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/7d8ff41747b74252ac3fb6efb0e0b120.png', 'id': '7d8ff41747b74252ac3fb6efb0e0b120', 'annotations': [{'bbox': [1348.9970703125, 495.2944641113281, 1595.1395263671875, 597.7215576171875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[1348.9971,  495.2945, 1595.1395,  597.7216]]))
-Classes: 
-tensor([2])
-_____________________________________________________________________________________________________________________
-4025
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4094ae4656fb4b8fb1906192b24a34cb.png', 'id': '4094ae4656fb4b8fb1906192b24a34cb', 'annotations': [{'bbox': [389.58, 454.94, 653.69, 623.77], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 356.25, 129.8, 430.95], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [886.4, 461.12, 942.49, 502.43], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 475.32, 443.92, 892.28], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [724.05, 474.87, 885.97, 615.18], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [963.38, 463.87, 1016.35, 500.13], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4094ae4656fb4b8fb1906192b24a34cb.png', 'id': '4094ae4656fb4b8fb1906192b24a34cb', 'annotations': [{'bbox': [2.0098836421966553, 475.7828063964844, 418.86962890625, 802.2080078125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [727.9584350585938, 478.6401672363281, 885.2172241210938, 601.7870483398438], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [418.7469177246094, 451.9692687988281, 640.3048706054688, 607.8206176757812], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [970.3869018554688, 464.8630065917969, 1015.4588012695312, 502.88385009765625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [888.6940307617188, 458.1103515625, 934.6524047851562, 497.7950134277344], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[   2.0099,  475.7828,  418.8696,  802.2080],
-        [ 727.9584,  478.6402,  885.2172,  601.7870],
-        [ 418.7469,  451.9693,  640.3049,  607.8206],
-        [ 970.3869,  464.8630, 1015.4588,  502.8839],
-        [  19.7327,  435.8272,   53.9794,  488.9204],
-        [ 888.6940,  458.1104,  934.6524,  497.7950],
-        [ 153.0045,  358.6287,  179.9733,  410.7890],
-        [ 177.4723,  369.0380,  200.3206,  410.0763]]))
-Classes: 
-tensor([2, 2, 2, 2, 0, 2, 9, 9])
-_____________________________________________________________________________________________________________________
-708
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/ee955952087f4801ac7235ba9ef853b1.png', 'id': 'ee955952087f4801ac7235ba9ef853b1', 'annotations': [{'bbox': [962.73, 436.99, 1017.04, 491.38], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [511.2, 478.18, 584.15, 516.45], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [884.28, 463.05, 909.81, 485.46], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [608.57, 476.8, 649.65, 505.85], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [585.29, 475.93, 637.2, 507.69], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1570.09, 443.6, 1600.0, 828.02], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1000.68, 463.44, 1071.16, 505.96], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1300.31, 457.6, 1600.0, 603.75], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 480.08, 98.31, 552.55], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [643.13, 471.11, 687.25, 500.24], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 465.56, 21.81, 695.04], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [626.65, 469.38, 668.5, 503.05], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [987.13, 463.66, 1032.63, 495.93], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [949.58, 466.34, 978.99, 491.42], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [552.77, 470.76, 620.62, 510.5], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/ee955952087f4801ac7235ba9ef853b1.png', 'id': 'ee955952087f4801ac7235ba9ef853b1', 'annotations': [{'bbox': [1299.5631103515625, 452.4831848144531, 1581.107666015625, 577.89697265625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [987.3591918945312, 461.8767395019531, 1063.5941162109375, 503.6236267089844], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [567.09716796875, 470.9269714355469, 624.9108276367188, 508.04302978515625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 477.7990417480469, 107.23126983642578, 539.9243774414062], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[1299.5631,  452.4832, 1581.1077,  577.8970],
-        [1377.8793,  422.3081, 1464.1149,  602.9855],
-        [ 987.3592,  461.8767, 1063.5941,  503.6236],
-        [ 567.0972,  470.9270,  624.9108,  508.0430],
-        [   0.0000,  477.7990,  107.2313,  539.9244],
-        [ 874.8675,  412.5422,  885.5213,  425.5334],
-        [ 678.6481,  451.2971,  726.7101,  499.8232],
-        [ 959.1255,  436.4944, 1015.3918,  495.9214],
-        [ 624.8204,  472.0378,  652.8072,  501.8531],
-        [ 878.5734,  459.9980,  910.7543,  487.6279],
-        [ 521.1492,  475.3432,  583.7739,  514.3851],
-        [ 643.8425,  468.3458,  669.8738,  499.9767]]))
-Classes: 
-tensor([2, 0, 2, 2, 2, 9, 2, 7, 2, 2, 2, 2])
-_____________________________________________________________________________________________________________________
-3516
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/b748563d8daf4c3293539914c74c27c1.png', 'id': 'b748563d8daf4c3293539914c74c27c1', 'annotations': [{'bbox': [875.03, 466.54, 1001.88, 563.68], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 485.38, 155.49, 593.06], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [726.3, 451.65, 822.96, 542.56], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1178.46, 470.02, 1451.19, 615.18], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/b748563d8daf4c3293539914c74c27c1.png', 'id': 'b748563d8daf4c3293539914c74c27c1', 'annotations': [{'bbox': [0.9147397875785828, 483.9046630859375, 160.77651977539062, 578.3792724609375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [881.2939453125, 469.1329040527344, 988.0604858398438, 557.4742431640625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1189.31689453125, 470.5257263183594, 1317.3251953125, 601.1103515625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [731.7050170898438, 453.3157043457031, 813.3516845703125, 532.9320068359375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1036.711669921875, 456.2998962402344, 1079.1976318359375, 486.7734069824219], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [996.8306884765625, 461.7969970703125, 1032.34765625, 487.47869873046875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[9.1474e-01, 4.8390e+02, 1.6078e+02, 5.7838e+02],
-        [8.8129e+02, 4.6913e+02, 9.8806e+02, 5.5747e+02],
-        [1.1893e+03, 4.7053e+02, 1.3173e+03, 6.0111e+02],
-        [7.3171e+02, 4.5332e+02, 8.1335e+02, 5.3293e+02],
-        [1.0367e+03, 4.5630e+02, 1.0792e+03, 4.8677e+02],
-        [1.1760e+03, 4.8914e+02, 1.2142e+03, 6.2023e+02],
-        [9.9683e+02, 4.6180e+02, 1.0323e+03, 4.8748e+02],
-        [5.5609e+02, 4.1521e+02, 6.7628e+02, 5.2345e+02]]))
-Classes: 
-tensor([2, 2, 2, 2, 2, 0, 2, 5])
-_____________________________________________________________________________________________________________________
-4055
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/317fba7a6afb4dac8974af0d61afe325.png', 'id': '317fba7a6afb4dac8974af0d61afe325', 'annotations': [{'bbox': [598.38, 455.83, 659.98, 482.94], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1439.78, 323.49, 1600.0, 657.12], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [996.73, 416.63, 1184.3, 501.44], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [644.48, 455.66, 710.36, 484.17], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/317fba7a6afb4dac8974af0d61afe325.png', 'id': '317fba7a6afb4dac8974af0d61afe325', 'annotations': [{'bbox': [1512.2650146484375, 440.3809814453125, 1598.775146484375, 614.724609375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [658.8799438476562, 456.9439697265625, 708.3275146484375, 481.340576171875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1240.947021484375, 386.7209777832031, 1588.5166015625, 540.4710693359375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [986.353515625, 419.5084533691406, 1175.7740478515625, 494.8384094238281], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[1512.2650,  440.3810, 1598.7751,  614.7246],
-        [ 658.8799,  456.9440,  708.3275,  481.3406],
-        [1240.9470,  386.7210, 1588.5166,  540.4711],
-        [ 548.0609,  454.8477,  565.4739,  503.5658],
-        [ 491.5753,  478.3946,  507.7919,  521.0284],
-        [ 986.3535,  419.5085, 1175.7740,  494.8384],
-        [ 912.8614,  432.9579,  930.0118,  480.3914],
-        [ 605.7795,  456.8488,  657.7160,  481.3985],
-        [ 571.5729,  458.7868,  606.0970,  480.0767]]))
-Classes: 
-tensor([2, 2, 2, 0, 0, 2, 0, 2, 2])
-_____________________________________________________________________________________________________________________
-2218
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/79e28a35e07b444c893111137aea81e7.png', 'id': '79e28a35e07b444c893111137aea81e7', 'annotations': [{'bbox': [814.4, 481.36, 1059.1, 678.3], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/79e28a35e07b444c893111137aea81e7.png', 'id': '79e28a35e07b444c893111137aea81e7', 'annotations': [{'bbox': [820.9361572265625, 480.1807861328125, 1036.989501953125, 654.7900390625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[ 820.9362,  480.1808, 1036.9895,  654.7900]]))
-Classes: 
-tensor([2])
-_____________________________________________________________________________________________________________________
-2952
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/eb10c61f9d904b48be4bab03cce9b2a9.png', 'id': 'eb10c61f9d904b48be4bab03cce9b2a9', 'annotations': [{'bbox': [998.89, 419.93, 1199.81, 497.05], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [623.18, 460.25, 700.96, 508.03], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1462.94, 324.43, 1600.0, 658.01], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [746.3, 414.04, 843.23, 513.76], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 267.01, 565.14, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/eb10c61f9d904b48be4bab03cce9b2a9.png', 'id': 'eb10c61f9d904b48be4bab03cce9b2a9', 'annotations': [{'bbox': [629.525390625, 461.8451232910156, 697.8411254882812, 505.4792175292969], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1514.486572265625, 435.6127014160156, 1599.4189453125, 621.8837890625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1215.209228515625, 389.5144958496094, 1590.5526123046875, 548.4856567382812], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [708.2488403320312, 448.2393493652344, 752.102294921875, 477.0496826171875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [984.3826904296875, 420.382568359375, 1175.2708740234375, 499.25567626953125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[ 629.5254,  461.8451,  697.8411,  505.4792],
-        [1514.4866,  435.6127, 1599.4189,  621.8838],
-        [1215.2092,  389.5145, 1590.5526,  548.4857],
-        [ 708.2488,  448.2393,  752.1023,  477.0497],
-        [ 984.3827,  420.3826, 1175.2709,  499.2557],
-        [ 914.0688,  433.3296,  931.1054,  480.5916],
-        [ 749.0977,  408.5769,  834.3569,  513.1718]]))
-Classes: 
-tensor([2, 2, 2, 2, 2, 0, 7])
-_____________________________________________________________________________________________________________________
-5905
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4207bb5acb624c199bee66bf8bc73d0e.png', 'id': '4207bb5acb624c199bee66bf8bc73d0e', 'annotations': [{'bbox': [1087.78, 461.19, 1280.46, 561.45], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1306.94, 472.14, 1600.0, 658.59], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [826.52, 473.75, 919.17, 543.65], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [791.69, 464.51, 853.89, 508.3], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [669.57, 463.77, 746.44, 514.36], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1548.55, 447.22, 1600.0, 797.58], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1196.49, 470.31, 1409.75, 588.38], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4207bb5acb624c199bee66bf8bc73d0e.png', 'id': '4207bb5acb624c199bee66bf8bc73d0e', 'annotations': [{'bbox': [1320.151611328125, 461.2201843261719, 1574.6024169921875, 627.3358154296875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1194.7000732421875, 466.6163635253906, 1369.793212890625, 571.3207397460938], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [830.0426635742188, 470.9200134277344, 906.9093627929688, 530.1176147460938], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1090.4385986328125, 453.2901306152344, 1220.839599609375, 549.30908203125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [791.2103881835938, 463.0395812988281, 839.243896484375, 502.6650085449219], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1554.921142578125, 532.4114990234375, 1600.0, 658.9247436523438], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [661.5969848632812, 464.5447082519531, 742.2741088867188, 506.4660339355469], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[1320.1516,  461.2202, 1574.6024,  627.3358],
-        [1194.7001,  466.6164, 1369.7932,  571.3207],
-        [ 830.0427,  470.9200,  906.9094,  530.1176],
-        [1090.4386,  453.2901, 1220.8396,  549.3091],
-        [ 791.2104,  463.0396,  839.2439,  502.6650],
-        [ 800.0225,  375.9796,  814.1492,  402.1111],
-        [ 870.9999,  371.6694,  890.9630,  398.8108],
-        [1554.9211,  532.4115, 1600.0000,  658.9247],
-        [1126.6884,  343.9600, 1141.1971,  377.2131],
-        [ 539.7664,  312.7969,  562.0675,  362.2523],
-        [ 661.5970,  464.5447,  742.2741,  506.4660],
-        [ 350.6755,  518.3177,  369.6751,  556.2499],
-        [ 735.5252,  413.8261,  745.7730,  435.6910]]))
-Classes: 
-tensor([ 2,  2,  2,  2,  2,  9,  9,  2,  9,  9,  2, 10,  9])
-_____________________________________________________________________________________________________________________
-5424
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/8df3eafa961346aeb1b8c9c7038ec9fd.png', 'id': '8df3eafa961346aeb1b8c9c7038ec9fd', 'annotations': [{'bbox': [1472.9, 340.7, 1600.0, 663.21], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/8df3eafa961346aeb1b8c9c7038ec9fd.png', 'id': '8df3eafa961346aeb1b8c9c7038ec9fd', 'annotations': [{'bbox': [652.428955078125, 456.731201171875, 708.9715576171875, 482.50372314453125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1235.5927734375, 389.5423583984375, 1590.4754638671875, 538.909912109375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [980.1740112304688, 422.4920959472656, 1178.4976806640625, 494.2380676269531], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1510.965087890625, 445.72161865234375, 1599.3741455078125, 610.2627563476562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1169.696533203125, 418.1699523925781, 1271.5233154296875, 507.5670166015625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[ 652.4290,  456.7312,  708.9716,  482.5037],
-        [1235.5928,  389.5424, 1590.4755,  538.9099],
-        [ 980.1740,  422.4921, 1178.4977,  494.2381],
-        [ 491.4316,  478.2738,  507.9624,  520.6077],
-        [ 914.3228,  433.4933,  931.0768,  480.0111],
-        [1510.9651,  445.7216, 1599.3741,  610.2628],
-        [1169.6965,  418.1700, 1271.5233,  507.5670],
-        [ 606.5856,  457.8644,  656.8281,  481.6782],
-        [ 763.0696,  435.8380,  793.5722,  453.3852],
-        [ 674.8793,  462.3873,  709.9058,  482.0004]]))
-Classes: 
-tensor([2, 2, 2, 0, 0, 2, 2, 2, 2, 2])
-_____________________________________________________________________________________________________________________
-1227
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4f38413567d14272b4fc9c89cd8405f3.png', 'id': '4f38413567d14272b4fc9c89cd8405f3', 'annotations': [{'bbox': [1167.65, 437.66, 1214.24, 468.53], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4f38413567d14272b4fc9c89cd8405f3.png', 'id': '4f38413567d14272b4fc9c89cd8405f3', 'annotations': [{'bbox': [799.3248291015625, 440.32623291015625, 864.4869995117188, 484.9895324707031], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1179.4757080078125, 432.51788330078125, 1221.1990966796875, 468.5650329589844], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[ 971.3225,  318.8503, 1166.7551,  549.1284],
-        [1462.3132,  422.2859, 1501.4130,  528.4698],
-        [ 799.3248,  440.3262,  864.4870,  484.9895],
-        [1506.8679,  412.7179, 1547.4191,  532.5530],
-        [1179.4757,  432.5179, 1221.1991,  468.5650]]))
-Classes: 
-tensor([7, 0, 2, 0, 2])
-_____________________________________________________________________________________________________________________
-2038
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/60d7dd6be0a34d54987cd8c567e07eda.png', 'id': '60d7dd6be0a34d54987cd8c567e07eda', 'annotations': []}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/60d7dd6be0a34d54987cd8c567e07eda.png', 'id': '60d7dd6be0a34d54987cd8c567e07eda', 'annotations': [{'bbox': [829.7892456054688, 474.2452392578125, 853.191162109375, 490.97119140625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [4.0775628089904785, 480.8623352050781, 68.6677017211914, 554.0662231445312], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-Boxes: 
-Boxes(tensor([[829.7892, 474.2452, 853.1912, 490.9712],
-        [  4.0776, 480.8623,  68.6677, 554.0662],
-        [768.0340, 477.1771, 790.7528, 490.7641]]))
+Boxes(tensor([[689.7766, 480.0242, 990.1407, 719.6977],
+        [  1.0080, 436.6965, 231.9504, 695.8414],
+        [736.0531, 471.8447, 780.8125, 501.7896]]))
 Classes: 
 tensor([2, 2, 2])
 _____________________________________________________________________________________________________________________
-4557
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/aaace027ec2647b48281f9324acdd446.png', 'id': 'aaace027ec2647b48281f9324acdd446', 'annotations': [{'bbox': [224.76, 448.69, 402.39, 507.72], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1548.26, 503.1, 1600.0, 563.14], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
-{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/aaace027ec2647b48281f9324acdd446.png', 'id': 'aaace027ec2647b48281f9324acdd446', 'annotations': [{'bbox': [247.74119567871094, 455.98162841796875, 366.1937561035156, 499.8228759765625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+2722
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/139bce92199440ea8929d1a1bd10dbda.png', 'id': '139bce92199440ea8929d1a1bd10dbda', 'annotations': [{'bbox': [798.91, 470.27, 842.95, 518.23], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/139bce92199440ea8929d1a1bd10dbda.png', 'id': '139bce92199440ea8929d1a1bd10dbda', 'annotations': [{'bbox': [852.4599609375, 485.5654296875, 882.7946166992188, 507.63726806640625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [876.7569580078125, 472.03338623046875, 912.9501342773438, 494.3977355957031], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
 Boxes: 
-Boxes(tensor([[349.5487, 435.2667, 430.6231, 671.7375],
-        [672.0311, 457.6180, 701.2403, 553.1073],
-        [619.1542, 463.1007, 656.8358, 553.6525],
-        [247.7412, 455.9816, 366.1938, 499.8229]]))
+Boxes(tensor([[852.4600, 485.5654, 882.7946, 507.6373],
+        [876.7570, 472.0334, 912.9501, 494.3977],
+        [929.2940, 483.1008, 956.3640, 508.3254]]))
 Classes: 
-tensor([0, 0, 0, 2])
+tensor([2, 2, 2])
+_____________________________________________________________________________________________________________________
+4724
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/32e69a777d58481ab972dbea3ff75974.png', 'id': '32e69a777d58481ab972dbea3ff75974', 'annotations': [{'bbox': [762.12, 463.67, 824.16, 536.22], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [872.18, 475.29, 915.47, 510.81], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/32e69a777d58481ab972dbea3ff75974.png', 'id': '32e69a777d58481ab972dbea3ff75974', 'annotations': []}
+Boxes: 
+Boxes(tensor([[1050.2505,  457.6010, 1070.8575,  504.3782],
+        [ 870.4167,  474.3118,  911.3298,  510.5494]]))
+Classes: 
+tensor([0, 2])
+_____________________________________________________________________________________________________________________
+4285
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/af7ce8da343b4de19950c66b15ece116.png', 'id': 'af7ce8da343b4de19950c66b15ece116', 'annotations': []}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/af7ce8da343b4de19950c66b15ece116.png', 'id': 'af7ce8da343b4de19950c66b15ece116', 'annotations': []}
+Boxes: 
+Boxes(tensor([[696.4088, 394.4783, 722.7871, 441.7381],
+        [ 69.8194, 532.1160, 138.6436, 655.7019],
+        [941.0397, 477.7808, 998.0471, 526.3066]]))
+Classes: 
+tensor([ 9, 10,  7])
+_____________________________________________________________________________________________________________________
+4760
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/3d905993341a42da8a4a951fb439682b.png', 'id': '3d905993341a42da8a4a951fb439682b', 'annotations': [{'bbox': [719.9, 495.28, 789.63, 553.83], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [312.28, 476.2, 472.15, 593.52], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [471.14, 474.85, 634.53, 590.9], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1335.76, 478.11, 1548.81, 547.67], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1543.25, 459.15, 1600.0, 524.41], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [714.72, 495.63, 767.99, 537.42], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/3d905993341a42da8a4a951fb439682b.png', 'id': '3d905993341a42da8a4a951fb439682b', 'annotations': [{'bbox': [491.9772644042969, 482.6460266113281, 628.9821166992188, 589.7420043945312], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [715.1144409179688, 496.0474548339844, 790.584228515625, 551.0111083984375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [456.6798400878906, 502.7131652832031, 486.0829162597656, 523.6290283203125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1024.3218,  236.4191, 1050.8610,  297.8881],
+        [1135.6241,  124.5300, 1176.9833,  225.1584],
+        [ 491.9773,  482.6460,  628.9821,  589.7420],
+        [1071.0210,  180.6622, 1102.4536,  265.3405],
+        [ 732.6390,  352.4283,  751.9570,  390.6844],
+        [ 600.3229,  350.7802,  622.1082,  394.9468],
+        [1190.0969,  418.4040, 1357.2589,  537.0428],
+        [ 715.1144,  496.0475,  790.5842,  551.0111],
+        [1234.4592,  408.1948, 1596.5332,  536.6594],
+        [1345.1129,   74.8419, 1393.2694,  285.9912],
+        [ 151.0547,  494.5063,  168.7186,  543.0338],
+        [ 456.6798,  502.7132,  486.0829,  523.6290],
+        [ 176.4574,  499.4891,  191.8984,  540.7877],
+        [  67.1838,  356.9408,   89.6574,  395.9037],
+        [ 966.2524,  490.4172, 1020.2194,  544.7042],
+        [ 709.3683,  493.7045,  749.3014,  535.3894],
+        [ 319.6711,  477.9413,  453.8236,  580.3462]]))
+Classes: 
+tensor([9, 9, 2, 9, 9, 9, 7, 2, 7, 9, 0, 2, 0, 9, 1, 2, 2])
+_____________________________________________________________________________________________________________________
+1214
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/dd29902d904d4bd1a68e5e6926cd6dfc.png', 'id': 'dd29902d904d4bd1a68e5e6926cd6dfc', 'annotations': [{'bbox': [769.61, 431.97, 943.08, 585.08], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [51.19, 396.36, 546.4, 567.62], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [797.93, 439.08, 833.33, 469.25], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/dd29902d904d4bd1a68e5e6926cd6dfc.png', 'id': 'dd29902d904d4bd1a68e5e6926cd6dfc', 'annotations': [{'bbox': [783.4244384765625, 446.90435791015625, 935.982421875, 568.11083984375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[783.4244, 446.9044, 935.9824, 568.1108]]))
+Classes: 
+tensor([2])
+_____________________________________________________________________________________________________________________
+3808
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/f9161a733a9c4303ac28a12159a38e0d.png', 'id': 'f9161a733a9c4303ac28a12159a38e0d', 'annotations': [{'bbox': [0.0, 490.91, 85.87, 543.06], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [967.57, 413.12, 1131.48, 574.38], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [947.35, 462.79, 1034.65, 526.97], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [87.77, 491.59, 177.64, 540.35], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [930.37, 463.44, 991.66, 525.39], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [192.88, 444.34, 576.7, 684.34], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [744.06, 475.34, 786.95, 510.31], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/f9161a733a9c4303ac28a12159a38e0d.png', 'id': 'f9161a733a9c4303ac28a12159a38e0d', 'annotations': [{'bbox': [254.50241088867188, 446.9538269042969, 570.7086181640625, 656.068359375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [704.6123046875, 477.81072998046875, 740.8724365234375, 502.0976257324219], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [604.5314331054688, 469.9694519042969, 686.9142456054688, 528.4584350585938], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [747.8939819335938, 471.7236022949219, 798.5977172851562, 510.66949462890625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [929.7412109375, 465.75628662109375, 983.190185546875, 528.8350219726562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [59.69774627685547, 494.78277587890625, 208.11892700195312, 562.1197509765625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [789.901123046875, 465.25335693359375, 812.7825927734375, 497.3417053222656], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 254.5024,  446.9538,  570.7086,  656.0684],
+        [ 827.5247,  406.9919,  932.8657,  531.2766],
+        [ 704.6123,  477.8107,  740.8724,  502.0976],
+        [ 604.5314,  469.9695,  686.9142,  528.4584],
+        [ 747.8940,  471.7236,  798.5977,  510.6695],
+        [ 929.7412,  465.7563,  983.1902,  528.8350],
+        [  59.6977,  494.7828,  208.1189,  562.1198],
+        [ 789.9011,  465.2534,  812.7826,  497.3417],
+        [ 973.8430,  423.8064, 1118.5070,  562.7930],
+        [ 734.8412,  473.4398,  762.2956,  498.7574],
+        [1283.1920,  441.4732, 1306.5193,  470.0605]]))
+Classes: 
+tensor([2, 7, 2, 2, 2, 2, 2, 2, 7, 2, 0])
+_____________________________________________________________________________________________________________________
+5349
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/fbbad6309f1543f78634e49c50dfb779.png', 'id': 'fbbad6309f1543f78634e49c50dfb779', 'annotations': [{'bbox': [85.92, 512.95, 322.71, 591.05], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [757.1, 489.72, 1104.13, 772.78], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [839.82, 464.39, 1049.27, 638.48], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/fbbad6309f1543f78634e49c50dfb779.png', 'id': 'fbbad6309f1543f78634e49c50dfb779', 'annotations': [{'bbox': [771.3984985351562, 489.7962951660156, 1064.891357421875, 728.2059936523438], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [688.8072509765625, 485.34820556640625, 746.2408447265625, 525.65625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [742.2964477539062, 471.4305114746094, 769.9764404296875, 505.15142822265625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [706.3567504882812, 475.09417724609375, 751.8213500976562, 510.5703430175781], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 771.3985,  489.7963, 1064.8914,  728.2060],
+        [ 688.8073,  485.3482,  746.2408,  525.6562],
+        [ 455.8102,  484.7289,  494.5974,  566.9275],
+        [ 742.2964,  471.4305,  769.9764,  505.1514],
+        [1101.0930,   63.8700, 1600.0000,  800.8682],
+        [ 455.7796,  520.5530,  495.1798,  574.8007],
+        [ 509.7135,  484.0073,  522.1885,  520.0651],
+        [ 706.3568,  475.0942,  751.8214,  510.5703],
+        [ 254.7341,  543.9281,  288.6703,  605.6585],
+        [ 798.9391,  406.1942,  812.0649,  436.8546],
+        [ 864.7752,  473.6709, 1003.2383,  509.1603]]))
+Classes: 
+tensor([ 2,  2,  0,  2,  7,  1,  0,  2, 10,  9,  2])
+_____________________________________________________________________________________________________________________
+40
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/f087c45005124bc5a0ed2e8eb39892fe.png', 'id': 'f087c45005124bc5a0ed2e8eb39892fe', 'annotations': [{'bbox': [1086.3, 441.4, 1240.1, 502.44], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [175.22, 472.71, 407.84, 568.57], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [145.93, 476.97, 391.23, 575.9], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [378.62, 467.58, 575.21, 535.13], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [146.1, 481.42, 427.18, 582.69], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [243.3, 470.15, 489.32, 557.47], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/f087c45005124bc5a0ed2e8eb39892fe.png', 'id': 'f087c45005124bc5a0ed2e8eb39892fe', 'annotations': [{'bbox': [144.0666046142578, 479.6510925292969, 416.0860290527344, 566.454345703125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [394.5509033203125, 484.3355407714844, 446.7896728515625, 535.7986450195312], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 144.0666,  479.6511,  416.0860,  566.4543],
+        [ 394.5509,  484.3355,  446.7897,  535.7986],
+        [   3.1427,  414.2735,  135.8906,  596.2507],
+        [ 890.9459,  283.5204, 1229.7959,  689.9571],
+        [ 274.6111,  467.9089,  394.5322,  506.2754]]))
+Classes: 
+tensor([2, 2, 7, 7, 2])
+_____________________________________________________________________________________________________________________
+3883
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/fcb195021b24470e95b67b8005363338.png', 'id': 'fcb195021b24470e95b67b8005363338', 'annotations': [{'bbox': [562.48, 480.61, 631.76, 525.9], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1013.13, 456.77, 1146.83, 545.59], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [955.08, 462.09, 1026.48, 518.89], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [520.65, 480.57, 599.22, 533.88], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [941.77, 464.51, 998.42, 511.97], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/fcb195021b24470e95b67b8005363338.png', 'id': 'fcb195021b24470e95b67b8005363338', 'annotations': [{'bbox': [941.6652221679688, 465.563720703125, 1024.4049072265625, 517.1670532226562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [526.3375854492188, 478.51861572265625, 625.7171630859375, 535.0306396484375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [593.8736572265625, 483.5201110839844, 630.2083740234375, 525.3018798828125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 941.6652,  465.5637, 1024.4049,  517.1671],
+        [ 526.3376,  478.5186,  625.7172,  535.0306],
+        [ 593.8737,  483.5201,  630.2084,  525.3019],
+        [1016.6597,  461.3578, 1135.9388,  543.1581],
+        [ 848.4783,  392.0096,  859.2520,  411.7391]]))
+Classes: 
+tensor([2, 2, 2, 7, 9])
+_____________________________________________________________________________________________________________________
+2862
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/f54c35623097453e8adccb553b2cd2ba.png', 'id': 'f54c35623097453e8adccb553b2cd2ba', 'annotations': [{'bbox': [777.76, 468.75, 818.88, 516.82], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 149.93, 240.54, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/f54c35623097453e8adccb553b2cd2ba.png', 'id': 'f54c35623097453e8adccb553b2cd2ba', 'annotations': [{'bbox': [1.0877628326416016, 370.52752685546875, 236.28204345703125, 756.2525634765625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1.0878e+00, 3.7053e+02, 2.3628e+02, 7.5625e+02],
+        [5.7886e+02, 4.5918e+02, 6.1909e+02, 5.5454e+02],
+        [1.4501e+03, 4.9190e+02, 1.4848e+03, 5.5548e+02],
+        [1.2678e+03, 5.7540e+02, 1.2988e+03, 6.0444e+02],
+        [8.5765e+02, 4.7824e+02, 8.8577e+02, 5.0726e+02],
+        [7.8088e+02, 4.7272e+02, 8.1977e+02, 5.2095e+02]]))
+Classes: 
+tensor([ 2,  0,  0, 32,  2,  5])
+_____________________________________________________________________________________________________________________
+5759
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/224d34c137b64e4f8012c7280b4b9089.png', 'id': '224d34c137b64e4f8012c7280b4b9089', 'annotations': [{'bbox': [531.4, 495.13, 573.26, 520.94], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [455.67, 487.88, 518.85, 526.76], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/224d34c137b64e4f8012c7280b4b9089.png', 'id': '224d34c137b64e4f8012c7280b4b9089', 'annotations': [{'bbox': [458.8412780761719, 491.4059143066406, 510.0636901855469, 523.5847778320312], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [535.5926513671875, 496.27325439453125, 569.7008666992188, 520.553466796875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [592.0778198242188, 495.6585388183594, 618.6421508789062, 513.0089721679688], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [623.8225708007812, 491.0721740722656, 646.531982421875, 504.8017272949219], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1138.5847,  133.4449, 1173.2559,  214.6511],
+        [ 755.7764,  317.9421,  779.9998,  364.1499],
+        [ 604.4450,  318.7231,  628.2595,  367.6520],
+        [1223.3124,  468.0539, 1252.9802,  548.2981],
+        [ 458.8413,  491.4059,  510.0637,  523.5848],
+        [1356.5513,    2.3724, 1427.1791,   47.4652],
+        [1217.0244,   29.3829, 1261.5492,  155.4945],
+        [ 535.5927,  496.2733,  569.7009,  520.5535],
+        [ 592.0778,  495.6585,  618.6422,  513.0090],
+        [ 623.8226,  491.0722,  646.5320,  504.8017],
+        [ 566.5225,  493.6248,  590.7317,  513.6235]]))
+Classes: 
+tensor([9, 9, 9, 0, 2, 9, 9, 2, 2, 2, 2])
+_____________________________________________________________________________________________________________________
+3344
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/ba5d4c21f9d1441a80355fb2b2bd5908.png', 'id': 'ba5d4c21f9d1441a80355fb2b2bd5908', 'annotations': [{'bbox': [950.59, 485.85, 998.93, 523.23], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/ba5d4c21f9d1441a80355fb2b2bd5908.png', 'id': 'ba5d4c21f9d1441a80355fb2b2bd5908', 'annotations': [{'bbox': [951.0213623046875, 487.827880859375, 998.4405517578125, 522.5376586914062], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1482.7053,  496.1503, 1514.5039,  581.9914],
+        [1020.0705,  419.1238, 1262.6628,  575.1335],
+        [ 951.0214,  487.8279,  998.4406,  522.5377],
+        [1156.1827,  459.0255, 1195.6122,  502.2880]]))
+Classes: 
+tensor([0, 5, 2, 0])
+_____________________________________________________________________________________________________________________
+4943
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/061805d66b424aa18267bdd7a955b761.png', 'id': '061805d66b424aa18267bdd7a955b761', 'annotations': [{'bbox': [0.0, 439.79, 4.76, 635.41], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/061805d66b424aa18267bdd7a955b761.png', 'id': '061805d66b424aa18267bdd7a955b761', 'annotations': []}
+Boxes: 
+Boxes(tensor([[ 900.8760,  381.7354, 1036.9403,  547.1971]]))
+Classes: 
+tensor([5])
+_____________________________________________________________________________________________________________________
+3098
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/5b790dd0fb6e4545bc7f3273aa178d4c.png', 'id': '5b790dd0fb6e4545bc7f3273aa178d4c', 'annotations': [{'bbox': [73.39, 459.65, 802.18, 726.38], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/5b790dd0fb6e4545bc7f3273aa178d4c.png', 'id': '5b790dd0fb6e4545bc7f3273aa178d4c', 'annotations': [{'bbox': [167.20172119140625, 473.2870788574219, 711.273681640625, 697.549072265625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 167.2017,  473.2871,  711.2737,  697.5491],
+        [ 258.7723,  480.3203,  288.5053,  543.2999],
+        [1082.4318,  158.2769, 1131.3414,  352.1513]]))
+Classes: 
+tensor([2, 0, 9])
+_____________________________________________________________________________________________________________________
+1625
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/24d36d6c526646499d4610990f715255.png', 'id': '24d36d6c526646499d4610990f715255', 'annotations': [{'bbox': [1511.92, 441.78, 1600.0, 494.9], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1430.13, 439.2, 1596.3, 498.4], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1133.28, 455.0, 1267.28, 495.1], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1348.62, 444.84, 1533.83, 498.46], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1597.46, 433.46, 1600.0, 483.21], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1307.05, 444.5, 1479.41, 501.04], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/24d36d6c526646499d4610990f715255.png', 'id': '24d36d6c526646499d4610990f715255', 'annotations': [{'bbox': [1320.8450927734375, 445.8741455078125, 1470.178466796875, 493.52923583984375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1438.4638671875, 439.04449462890625, 1578.6639404296875, 490.7182312011719], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1320.8451,  445.8741, 1470.1785,  493.5292],
+        [1438.4639,  439.0445, 1578.6639,  490.7182],
+        [1285.2094,  443.5519, 1342.0906,  464.2112]]))
+Classes: 
+tensor([2, 2, 2])
+_____________________________________________________________________________________________________________________
+1222
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/3abf81a7c3894000a4c508e6ced0caca.png', 'id': '3abf81a7c3894000a4c508e6ced0caca', 'annotations': [{'bbox': [434.11, 458.62, 517.08, 504.54], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [853.98, 463.36, 931.29, 523.44], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [630.58, 459.6, 711.51, 503.83], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/3abf81a7c3894000a4c508e6ced0caca.png', 'id': '3abf81a7c3894000a4c508e6ced0caca', 'annotations': [{'bbox': [632.2408447265625, 457.7710266113281, 708.7620239257812, 504.693115234375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [561.7637329101562, 456.3661804199219, 608.0667114257812, 487.7984313964844], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [434.1421813964844, 459.3981628417969, 520.1539916992188, 503.3529357910156], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [506.2977294921875, 457.1727294921875, 563.8851928710938, 496.63519287109375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [606.5336303710938, 454.2548522949219, 654.279541015625, 480.1859436035156], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [823.4140625, 444.0411376953125, 858.7799682617188, 463.6148376464844], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 632.2408,  457.7710,  708.7620,  504.6931],
+        [ 561.7637,  456.3662,  608.0667,  487.7984],
+        [ 434.1422,  459.3982,  520.1540,  503.3529],
+        [ 364.6682,  304.4603,  393.1812,  365.7067],
+        [ 506.2977,  457.1727,  563.8852,  496.6352],
+        [ 751.8243,  289.7850,  774.3960,  335.7965],
+        [ 409.4278,  302.3261,  436.2609,  363.0357],
+        [ 667.5480,  362.8303,  685.2272,  408.1791],
+        [ 872.1562,  285.2221,  894.1694,  330.8691],
+        [ 606.5336,  454.2549,  654.2795,  480.1859],
+        [ 823.4141,  444.0411,  858.7800,  463.6148],
+        [ 644.0209,  365.2070,  662.2059,  401.4253],
+        [ 855.2844,  468.4978,  928.0861,  523.7236],
+        [ 960.5781,  440.2742,  989.3986,  463.5615],
+        [1162.2806,  470.0728, 1193.7628,  561.8339]]))
+Classes: 
+tensor([2, 2, 2, 9, 2, 9, 9, 9, 9, 2, 2, 9, 2, 2, 0])
+_____________________________________________________________________________________________________________________
+4190
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/72183c2800e04fd0899c13aa3a99a47d.png', 'id': '72183c2800e04fd0899c13aa3a99a47d', 'annotations': [{'bbox': [22.0, 481.55, 335.69, 642.85], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 504.47, 125.23, 900.0], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [993.55, 447.73, 1349.24, 695.81], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [361.42, 459.52, 551.2, 606.06], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [242.37, 477.4, 548.3, 683.39], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/72183c2800e04fd0899c13aa3a99a47d.png', 'id': '72183c2800e04fd0899c13aa3a99a47d', 'annotations': [{'bbox': [92.80131530761719, 496.41748046875, 305.209228515625, 621.1087646484375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [261.3066711425781, 491.7834777832031, 467.0323486328125, 677.4918823242188], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[9.2801e+01, 4.9642e+02, 3.0521e+02, 6.2111e+02],
+        [2.6131e+02, 4.9178e+02, 4.6703e+02, 6.7749e+02],
+        [1.2300e+02, 2.9109e+02, 1.5717e+02, 3.5263e+02],
+        [3.5181e+02, 0.0000e+00, 1.4372e+03, 8.3247e+02],
+        [1.1364e+00, 3.6862e+02, 1.0235e+02, 6.9233e+02]]))
+Classes: 
+tensor([2, 2, 9, 7, 7])
+_____________________________________________________________________________________________________________________
+1065
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/84fd8f6d5b2c406e9ddd1c3b72690917.png', 'id': '84fd8f6d5b2c406e9ddd1c3b72690917', 'annotations': [{'bbox': [628.25, 445.83, 711.87, 525.33], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [837.04, 477.29, 934.54, 551.42], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [978.5, 473.04, 1023.67, 508.56], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [828.89, 467.16, 889.37, 520.16], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1036.93, 481.85, 1118.19, 539.2], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [960.9, 476.23, 1002.43, 509.3], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [760.25, 477.98, 803.91, 508.75], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/84fd8f6d5b2c406e9ddd1c3b72690917.png', 'id': '84fd8f6d5b2c406e9ddd1c3b72690917', 'annotations': [{'bbox': [842.6503295898438, 475.7074890136719, 919.8997192382812, 536.3457641601562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1045.9239501953125, 481.1685485839844, 1112.202880859375, 526.8716430664062], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1013.03466796875, 476.815185546875, 1066.1326904296875, 518.8629760742188], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [759.836181640625, 476.5684509277344, 797.46484375, 503.2326965332031], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [967.6202392578125, 473.541015625, 1013.4161376953125, 506.847900390625], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [932.4434814453125, 467.7911376953125, 963.8060302734375, 498.53857421875], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [829.0227661132812, 467.85833740234375, 873.4356079101562, 512.3648071289062], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [709.9931640625, 474.1142272949219, 737.0775756835938, 496.8418884277344], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 842.6503,  475.7075,  919.8997,  536.3458],
+        [1045.9240,  481.1685, 1112.2029,  526.8716],
+        [1320.9380,  462.1607, 1355.2240,  546.5299],
+        [1013.0347,  476.8152, 1066.1327,  518.8630],
+        [1418.2401,  499.6607, 1480.4254,  580.2191],
+        [ 436.2610,  482.0249,  459.6560,  550.3893],
+        [ 759.8362,  476.5685,  797.4648,  503.2327],
+        [ 415.9724,  475.0426,  438.6059,  544.3615],
+        [ 967.6202,  473.5410, 1013.4161,  506.8479],
+        [ 932.4435,  467.7911,  963.8060,  498.5386],
+        [ 829.0228,  467.8583,  873.4356,  512.3648],
+        [ 630.7444,  444.2661,  704.0999,  518.6190],
+        [ 109.3660,  528.4992,  204.2973,  605.2496],
+        [ 709.9932,  474.1142,  737.0776,  496.8419],
+        [ 955.4670,  470.9061,  985.0875,  503.8706],
+        [ 691.4051,  420.3489,  702.3373,  441.6102],
+        [ 734.0131,  420.5636,  740.2073,  436.2027]]))
+Classes: 
+tensor([2, 2, 0, 2, 3, 0, 2, 0, 2, 2, 2, 7, 1, 2, 2, 9, 9])
+_____________________________________________________________________________________________________________________
+1432
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4e56a7a63b984597844eb55df9a2ba21.png', 'id': '4e56a7a63b984597844eb55df9a2ba21', 'annotations': [{'bbox': [1542.44, 488.25, 1600.0, 532.17], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1566.07, 478.36, 1600.0, 532.86], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4e56a7a63b984597844eb55df9a2ba21.png', 'id': '4e56a7a63b984597844eb55df9a2ba21', 'annotations': [{'bbox': [1567.5697021484375, 502.3568420410156, 1598.96533203125, 528.07080078125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1567.5697,  502.3568, 1598.9653,  528.0708]]))
+Classes: 
+tensor([2])
+_____________________________________________________________________________________________________________________
+534
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/c1eed31234b94e9f8e22fbf3428b0ac2.png', 'id': 'c1eed31234b94e9f8e22fbf3428b0ac2', 'annotations': [{'bbox': [1325.13, 512.28, 1428.65, 589.11], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1542.31, 516.74, 1600.0, 594.18], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1434.4, 505.46, 1544.89, 585.48], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/c1eed31234b94e9f8e22fbf3428b0ac2.png', 'id': 'c1eed31234b94e9f8e22fbf3428b0ac2', 'annotations': [{'bbox': [1349.14501953125, 498.9424133300781, 1448.887451171875, 575.2695922851562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1461.206787109375, 502.5439758300781, 1572.24951171875, 576.4181518554688], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1080.2400,  484.3611, 1127.8885,  576.3289],
+        [ 110.4978,  428.0704,  168.3883,  552.9895],
+        [1349.1450,  498.9424, 1448.8875,  575.2696],
+        [ 659.5193,  468.2277,  700.7934,  572.7741],
+        [ 373.1154,  413.9413,  428.1310,  591.6978],
+        [ 233.9236,  452.8511,  316.8746,  594.4047],
+        [ 205.0696,  471.3105,  252.8933,  596.7577],
+        [1461.2068,  502.5440, 1572.2495,  576.4182],
+        [ 540.4260,  442.3944,  580.6127,  567.8005],
+        [ 632.4146,  439.1061,  667.4822,  550.2781],
+        [ 459.5858,  449.6804,  509.7296,  578.7078],
+        [ 415.9492,  438.1207,  455.1093,  581.2751]]))
+Classes: 
+tensor([0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0])
+_____________________________________________________________________________________________________________________
+3223
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/9827d52b3aa2484c8901f67f89742e15.png', 'id': '9827d52b3aa2484c8901f67f89742e15', 'annotations': [{'bbox': [1577.66, 411.93, 1600.0, 523.88], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1174.44, 442.47, 1462.96, 528.81], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [685.37, 445.94, 755.09, 469.5], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [375.72, 460.89, 627.66, 540.54], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [92.59, 485.16, 318.36, 617.71], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [914.94, 448.45, 939.98, 470.23], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.71, 410.73, 325.62, 541.08], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/9827d52b3aa2484c8901f67f89742e15.png', 'id': '9827d52b3aa2484c8901f67f89742e15', 'annotations': [{'bbox': [391.7066345214844, 460.5548095703125, 626.9893188476562, 540.0384521484375], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1174.1585693359375, 448.4401550292969, 1442.42919921875, 529.8065795898438], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [142.75161743164062, 488.37933349609375, 311.452392578125, 615.8623657226562], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[ 391.7066,  460.5548,  626.9893,  540.0385],
+        [1174.1586,  448.4402, 1442.4292,  529.8066],
+        [ 142.7516,  488.3793,  311.4524,  615.8624],
+        [1109.6604,  313.2441, 1137.7419,  382.5416]]))
+Classes: 
+tensor([2, 2, 2, 9])
+_____________________________________________________________________________________________________________________
+2141
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4b88c36757e04ccaae800696744c72f3.png', 'id': '4b88c36757e04ccaae800696744c72f3', 'annotations': [{'bbox': [1300.92, 441.68, 1600.0, 611.59], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1129.75, 452.92, 1461.88, 575.28], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1394.89, 452.18, 1600.0, 637.24], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/4b88c36757e04ccaae800696744c72f3.png', 'id': '4b88c36757e04ccaae800696744c72f3', 'annotations': [{'bbox': [1431.79541015625, 463.5902404785156, 1599.6336669921875, 612.2368774414062], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1322.7430419921875, 455.9231872558594, 1582.230224609375, 580.9583129882812], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1138.89208984375, 454.110595703125, 1231.89794921875, 557.5673217773438], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [1214.63525390625, 417.9148254394531, 1409.5758056640625, 571.0283203125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1431.7954,  463.5902, 1599.6337,  612.2369],
+        [1322.7430,  455.9232, 1582.2302,  580.9583],
+        [1138.8921,  454.1106, 1231.8979,  557.5673],
+        [1214.6353,  417.9148, 1409.5758,  571.0283]]))
+Classes: 
+tensor([2, 2, 2, 2])
+_____________________________________________________________________________________________________________________
+3868
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/7315022fc89147a6afc7f978601f8f38.png', 'id': '7315022fc89147a6afc7f978601f8f38', 'annotations': [{'bbox': [0.0, 495.15, 20.21, 621.19], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [600.03, 479.08, 622.95, 495.85], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [0.0, 501.33, 126.52, 575.22], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [582.08, 478.24, 605.79, 499.03], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+{'file_name': '/mnt/nfs/scratch1/pmallya/nusc_kitti/val/image_2/7315022fc89147a6afc7f978601f8f38.png', 'id': '7315022fc89147a6afc7f978601f8f38', 'annotations': [{'bbox': [0.7996704578399658, 497.667724609375, 117.3573226928711, 568.4981689453125], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [581.35791015625, 478.0066833496094, 611.4953002929688, 497.5578918457031], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}, {'bbox': [660.0560913085938, 474.2170104980469, 677.8285522460938, 490.4457702636719], 'bbox_mode': <BoxMode.XYXY_ABS: 0>, 'category_id': 0}]}
+Boxes: 
+Boxes(tensor([[1.0411e+03, 1.8668e+02, 1.0699e+03, 2.5317e+02],
+        [7.2410e+02, 3.2041e+02, 7.4682e+02, 3.6500e+02],
+        [5.8881e+02, 3.2680e+02, 6.0932e+02, 3.6792e+02],
+        [1.1727e+03, 5.3805e+01, 1.2200e+03, 1.5591e+02],
+        [1.0933e+03, 1.1529e+02, 1.1285e+03, 2.1402e+02],
+        [7.9967e-01, 4.9767e+02, 1.1736e+02, 5.6850e+02],
+        [5.8136e+02, 4.7801e+02, 6.1150e+02, 4.9756e+02],
+        [1.4465e+03, 1.0875e+01, 1.5025e+03, 2.0019e+02],
+        [6.6006e+02, 4.7422e+02, 6.7783e+02, 4.9045e+02],
+        [7.0884e+02, 4.7875e+02, 7.2418e+02, 4.9050e+02]]))
+Classes: 
+tensor([9, 9, 9, 9, 9, 2, 2, 9, 2, 2])
 _____________________________________________________________________________________________________________________
