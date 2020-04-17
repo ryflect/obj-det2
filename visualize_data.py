@@ -101,7 +101,7 @@ print(len(nusc_dicts_ground))
 print(len(nusc_dicts_infer))
 
 plt.rcParams['figure.figsize'] = [20, 10]
-for d in random.sample(range(len(nusc_dicts_ground)), 20):
+for d in random.sample(range(len(nusc_dicts_ground)), 30):
     print(d)
     print(nusc_dicts_ground[d])
     infer_dict = next((i for i in nusc_dicts_infer if i["id"] == nusc_dicts_ground[d]["id"]), None)
