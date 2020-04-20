@@ -1,8 +1,6 @@
 Traceback (most recent call last):
   File "data_eval_kitti.py", line 12, in <module>
     dt_annos = kitti.get_label_annos(det_path, val_image_ids)
-  File "/home/pmallya/obj-det2/kitti_common.py", line 346, in get_label_annos
-    annos.append(get_label_anno(label_filename))
-  File "/home/pmallya/obj-det2/kitti_common.py", line 305, in get_label_anno
-    with open(label_path, 'r') as f:
-FileNotFoundError: [Errno 2] No such file or directory: '/mnt/nfs/scratch1/pmallya/KITTI/object/training/infer_2/00748.txt'
+  File "/home/pmallya/obj-det2/kitti_common.py", line 345, in get_label_annos
+    label_filename = label_folder / (idx + '.txt')
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
