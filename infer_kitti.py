@@ -20,13 +20,13 @@ from detectron2.utils.visualizer import Visualizer
 from detectron2.data import DatasetCatalog, MetadataCatalog
 
 directory = "/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/"
-infer_directory = "/mnt/nfs/scratch1/pmallya/object/training/infer_2/"
+infer_directory = "/mnt/nfs/scratch1/pmallya/KITTI/object/training/infer_2/"
 output_json = []
 draw_output_flag = False
 count = 0
 plt.rcParams['figure.figsize'] = [20, 10]
 # generate ids for val set
-val_file = open("/mnt/nfs/scratch1/pmallya/object/training/nusc_val.txt", 'w')
+val_file = open("/mnt/nfs/scratch1/pmallya/KITTI/object/training/nusc_val.txt", 'w')
 for filename in os.listdir(directory):
     if filename.endswith(".png"):
         print("Processing File: ", filename)
