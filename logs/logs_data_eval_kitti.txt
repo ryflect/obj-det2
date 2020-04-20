@@ -1,8 +1,11 @@
-Traceback (most recent call last):
-  File "data_eval_kitti.py", line 12, in <module>
-    dt_annos = kitti.get_label_annos(det_path, val_image_ids)
-  File "/home/pmallya/obj-det2/kitti_common.py", line 346, in get_label_annos
-    annos.append(get_label_anno(label_filename))
-  File "/home/pmallya/obj-det2/kitti_common.py", line 305, in get_label_anno
-    with open(label_path, 'r') as f:
-FileNotFoundError: [Errno 2] No such file or directory: '/mnt/nfs/scratch1/pmallya/KITTI/object/training/infer_2/1.txt'
+/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/numba/typed_passes.py:293: NumbaPerformanceWarning: 
+The keyword argument 'parallel=True' was specified but no transformation for parallel execution was possible.
+
+To find out why, try turning on parallel diagnostics, see http://numba.pydata.org/numba-doc/latest/user/parallel.html#diagnostics for help.
+
+File "eval.py", line 120:
+@numba.jit(nopython=True, parallel=True)
+def d3_box_overlap_kernel(boxes, qboxes, rinc, criterion=-1):
+^
+
+  state.func_ir.loc))
