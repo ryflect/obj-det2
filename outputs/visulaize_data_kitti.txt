@@ -1,0 +1,5 @@
+7481
+7481
+3635
+{'file_name': '/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/001036.png', 'id': '001036', 'annotations': []}
+{'file_name': '/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/001036.png', 'id': '001036', 'annotations': []}
