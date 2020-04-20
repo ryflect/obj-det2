@@ -6,7 +6,7 @@ import csv
 # fff7106ca1f34c7a83e72ffbc0c0b1b5.txt
 # fff7106ca1f34c7a83e72ffbc0c0b1b5.png
 
-directory = "/mnt/nfs/scratch1/pmallya/nusc_kitti/val/label_2/"
+directory = "/mnt/nfs/scratch1/pmallya/KITTI/object/training/label_2/"
 # directory = "./Downloads/"
 format_json = []
 
@@ -51,5 +51,5 @@ for filename in os.listdir(directory):
 print("Finished")
 print("Forgotten Labels: ", list(set(forgotten_labels)))
 
-with open("./output/ground.json", 'w', encoding='utf-8') as ground_outfile:
+with open("./output/ground_kitti.json", 'w', encoding='utf-8') as ground_outfile:
     json.dump(format_json, ground_outfile, ensure_ascii=False, indent=4)

@@ -114,3 +114,7 @@ for d in random.sample(range(len(nusc_dicts_ground)), 40):
     print("Classes: ")
     print(inferred_output.pred_classes)
     print("_____________________________________________________________________________________________________________________")
+
+
+# kitti dataset
+# make notes of images where the bbox is much different, also false alarms (both types)

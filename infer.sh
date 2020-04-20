@@ -1,2 +1,2 @@
 #!/bin/bash
-python infer_nusc_kitti.py
+python infer_kitti.py
