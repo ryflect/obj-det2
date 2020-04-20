@@ -4,23 +4,3 @@ Bad key "text.kerning_factor" on line 4 in
 You probably need to get an updated matplotlibrc file from
 https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
 or from the matplotlib source distribution
-Traceback (most recent call last):
-  File "visualize_data_kitti.py", line 109, in <module>
-    show_ground_truth(nusc_dicts_ground[d], nusc_metadata_ground)
-  File "visualize_data_kitti.py", line 47, in show_ground_truth
-    plt.savefig("/mnt/nfs/scratch1/pmallya/KITTI/object/training/downloads/" + dict["id"] + "_ground.png")
-  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/matplotlib/pyplot.py", line 729, in savefig
-    res = fig.savefig(*args, **kwargs)
-  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/matplotlib/figure.py", line 2180, in savefig
-    self.canvas.print_figure(fname, **kwargs)
-  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2091, in print_figure
-    **kwargs)
-  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 530, in print_png
-    cbook.open_file_cm(filename_or_obj, "wb") as fh:
-  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/contextlib.py", line 81, in __enter__
-    return next(self.gen)
-  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/matplotlib/cbook/__init__.py", line 447, in open_file_cm
-    fh, opened = to_filehandle(path_or_file, mode, True, encoding)
-  File "/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/matplotlib/cbook/__init__.py", line 432, in to_filehandle
-    fh = open(fname, flag, encoding=encoding)
-FileNotFoundError: [Errno 2] No such file or directory: '/mnt/nfs/scratch1/pmallya/KITTI/object/training/downloads/001036_ground.png'
