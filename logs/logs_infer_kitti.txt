@@ -1,0 +1,10 @@
+
+Bad key "text.kerning_factor" on line 4 in
+/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
+or from the matplotlib source distribution
+Traceback (most recent call last):
+  File "infer_kitti.py", line 29, in <module>
+    val_file = open("/mnt/nfs/scratch1/pmallya/object/training/nusc_val.txt", 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/nfs/scratch1/pmallya/object/training/nusc_val.txt'
