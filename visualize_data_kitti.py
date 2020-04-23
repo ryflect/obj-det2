@@ -24,9 +24,9 @@ def infer_single_image(dict):
     # print("Single Image Inference")
     im = cv2.imread(dict["file_name"])
     cfg = get_cfg()
-    cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
+    cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"))
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.7
-    cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml")
+    cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml")
     predictor = DefaultPredictor(cfg)
     outputs = predictor(im)
     
@@ -87,7 +87,7 @@ def get_dicts(img_dir, json_path):
     return dataset_dicts
 
 DatasetCatalog.register("kitti_train", lambda d="train": get_dicts("/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/", "./output/ground_kitti.json"))
-DatasetCatalog.register("kitti_infer", lambda d="infer": get_dicts("/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/", "./output/infer_kitti.json"))
+DatasetCatalog.register("kitti_infer", lambda d="infer": get_dicts("/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/", "./output/infer_kitti_faster_rcnn_x101.json"))
 # MetadataCatalog.get("nusc_train").set(thing_classes=["barrier", "bicycle", "bus", "car", "construction_vehicle", "motorcycle", "pedestrian", "traffic_cone", "trailer", "truck", "void"])
 MetadataCatalog.get("kitti_train").set(thing_classes=["car"])
 MetadataCatalog.get("kitti_infer").set(thing_classes=["car"])
@@ -95,7 +95,7 @@ nusc_metadata_ground = MetadataCatalog.get("kitti_train")
 nusc_metadata_infer = MetadataCatalog.get("kitti_infer")
 
 nusc_dicts_ground = get_dicts("/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/", "./output/ground_kitti.json")
-nusc_dicts_infer = get_dicts("/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/", "./output/infer_kitti.json")
+nusc_dicts_infer = get_dicts("/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/", "./output/infer_kitti_faster_rcnn_x101.json")
 # print(nusc_dicts)
 print(len(nusc_dicts_ground))
 print(len(nusc_dicts_infer))

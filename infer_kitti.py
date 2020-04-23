@@ -20,7 +20,7 @@ from detectron2.utils.visualizer import Visualizer
 from detectron2.data import DatasetCatalog, MetadataCatalog
 
 directory = "/mnt/nfs/scratch1/pmallya/KITTI/object/training/image_2/"
-infer_directory = "/mnt/nfs/scratch1/pmallya/KITTI/object/training/infer_2/"
+infer_directory = "/mnt/nfs/scratch1/pmallya/KITTI/object/training/infer_2_x101/"
 output_json = []
 draw_output_flag = False
 count = 0
@@ -38,9 +38,9 @@ for filename in os.listdir(directory):
         # infer_2 = []
         im = cv2.imread(directory + filename)
         cfg = get_cfg()
-        cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"))
+        cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"))
         cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.8
-        cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml")
+        cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml")
         predictor = DefaultPredictor(cfg)
         outputs = predictor(im)
         inferred_output = outputs["instances"].to("cpu")
@@ -85,6 +85,6 @@ for filename in os.listdir(directory):
 val_file.close()
 print("Finished")
 print("Files Processed: ", count)
-with open("./output/infer_kitti.json", 'w', encoding='utf-8') as infer_outfile:
+with open("./output/infer_kitti_faster_rcnn_x101.json", 'w', encoding='utf-8') as infer_outfile:
     json.dump(output_json, infer_outfile, ensure_ascii=False, indent=4)
         
