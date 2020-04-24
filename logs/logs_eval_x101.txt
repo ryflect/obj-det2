@@ -1,0 +1,11 @@
+/home/pmallya/anaconda3/envs/det2/lib/python3.6/site-packages/numba/typed_passes.py:293: NumbaPerformanceWarning: 
+The keyword argument 'parallel=True' was specified but no transformation for parallel execution was possible.
+
+To find out why, try turning on parallel diagnostics, see http://numba.pydata.org/numba-doc/latest/user/parallel.html#diagnostics for help.
+
+File "eval.py", line 120:
+@numba.jit(nopython=True, parallel=True)
+def d3_box_overlap_kernel(boxes, qboxes, rinc, criterion=-1):
+^
+
+  state.func_ir.loc))
