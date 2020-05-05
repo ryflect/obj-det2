@@ -6,6 +6,7 @@ import detectron2
 import os
 import json 
 import cv2 
+import string
 from detectron2.utils.logger import setup_logger
 from matplotlib import pyplot as plt 
 
@@ -101,19 +102,26 @@ print(len(nusc_dicts_ground))
 print(len(nusc_dicts_infer))
 
 plt.rcParams['figure.figsize'] = [20, 10]
-for d in random.sample(range(len(nusc_dicts_ground)), 50):
-    print(d)
-    print(nusc_dicts_ground[d])
-    infer_dict = next((i for i in nusc_dicts_infer if i["id"] == nusc_dicts_ground[d]["id"]), None)
-    print(infer_dict)
-    show_ground_truth(nusc_dicts_ground[d], nusc_metadata_ground)
-    show_infer(infer_dict, nusc_metadata_infer)
-    inferred_output = infer_single_image(infer_dict)
-    print("Boxes: ")
-    print(inferred_output.pred_boxes)
-    print("Classes: ")
-    print(inferred_output.pred_classes)
-    print("_____________________________________________________________________________________________________________________")
+with open('./downlaods/val.txt') as val_file:
+    val_set = [line.rstrip() for line in val_file]
+image_count = 0
+for d in random.sample(range(len(nusc_dicts_ground)), 5000):
+    if nusc_dicts_ground[d]["id"] in val_set:
+        print(d)
+        print(nusc_dicts_ground[d])
+        infer_dict = next((i for i in nusc_dicts_infer if i["id"] == nusc_dicts_ground[d]["id"]), None)
+        print(infer_dict)
+        show_ground_truth(nusc_dicts_ground[d], nusc_metadata_ground)
+        show_infer(infer_dict, nusc_metadata_infer)
+        inferred_output = infer_single_image(infer_dict)
+        print("Boxes: ")
+        print(inferred_output.pred_boxes)
+        print("Classes: ")
+        print(inferred_output.pred_classes)
+        print("_____________________________________________________________________________________________________________________")
+        image_count = image_count + 1
+    if image_count == 100:
+        break
 
 
 # kitti dataset
