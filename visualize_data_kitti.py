@@ -102,7 +102,7 @@ print(len(nusc_dicts_ground))
 print(len(nusc_dicts_infer))
 
 plt.rcParams['figure.figsize'] = [20, 10]
-with open('./downlaods/val.txt') as val_file:
+with open('./downloads/val.txt') as val_file:
     val_set = [line.rstrip() for line in val_file]
 image_count = 0
 for d in random.sample(range(len(nusc_dicts_ground)), 5000):
